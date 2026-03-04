@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RV3032C7"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RV3032C7")
+        (spec "default")
+    )
+)

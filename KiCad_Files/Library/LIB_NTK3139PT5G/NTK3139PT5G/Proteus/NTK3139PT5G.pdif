@@ -1,0 +1,156 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "NTK3139PT5G"
+   (description "P-channel Switch with Low RDS(on); 44% Smaller Footprint and 38% Thinner than SC-89; Low Threshold Levels, 1.5 V RDS(on) Rating; RoHS Compliant; Operated at Low Logic Level Gate Drive")
+   (family "TRX")
+   (package "SOTFL40P120X55-3N")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/NTK3139P-D.PDF")
+   (attribute "Geometry.Height" "0.55mm")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "NTK3139PT5G")
+   (attribute "Mouser Part Number" "863-NTK3139PT5G")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTK3139PT5G?qs=g97OBWmz8%2FXwvn%2FcSPxudQ%3D%3D")
+   (attribute "Arrow Part Number" "NTK3139PT5G")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/ntk3139pt5g/on-semiconductor?region=nac")
+   (gate
+    (symbol "NTK3139PT5G")
+    (pin "G" 1 PS)
+    (pin "D" 3 PS)
+    (pin "S" 2 PS)
+   )
+  )
+  (symbol "NTK3139PT5G"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 100) (pt 100 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 300 300))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 230 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 220) (pt 230 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -20) (pt 230 20))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 80) (pt 230 120))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 300 100) (pt 260 120) (pt 260 80) (pt 300 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 400) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOTFL40P120X55-3N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.015 0.775)
+      (pt 1.015 0.775)
+      (pt 1.015 -0.775)
+      (pt -1.015 -0.775)
+      (pt -1.015 0.775))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.4 0.6)
+      (pt 0.4 0.6)
+      (pt 0.4 -0.6)
+      (pt -0.4 -0.6)
+      (pt -0.4 0.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.4 0.2)
+      (pt 0 0.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.05 0.6)
+      (pt 0.05 0.6)
+      (pt 0.05 -0.6)
+      (pt -0.05 -0.6)
+      (pt -0.05 0.6))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.865 0.85)
+      (pt -0.4 0.85))))
+   (leg 1 (pt -0.632 0.4) (padstack 0))
+   (leg 2 (pt -0.632 -0.4) (padstack 0))
+   (leg 3 (pt 0.632 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.4 0.465 0 0 0))
+   )
+   (model "NTK3139PT5G.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

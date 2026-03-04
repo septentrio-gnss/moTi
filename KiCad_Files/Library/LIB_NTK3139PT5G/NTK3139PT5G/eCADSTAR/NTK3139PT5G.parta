@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_4167774"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-03-31-09:58:44)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "NTK3139PT5G")
+)
+
+
+(pinAssign "ECS_4167774"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-03-31-09:58:44)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_4167774")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "NTK3139PT5G")
+)
+
+
+(part "NTK3139PT5G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-03-31-09:58:44)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "NTK3139PT5G")
+    (pinAssignRef "ECS_4167774")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "P-channel Switch with Low RDS(on); 44% Smaller Footprint and 38% Thinner than SC-89; Low Threshold Levels, 1.5 V RDS(on) Rating; RoHS Compliant; Operated at Low Logic Level Gate Drive")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "NTK3139PT5G")
+    (property "Mouser_Part_Number" "863-NTK3139PT5G")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTK3139PT5G?qs=g97OBWmz8%2FXwvn%2FcSPxudQ%3D%3D")
+    (property "Arrow_Part_Number" "NTK3139PT5G")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/ntk3139pt5g/on-semiconductor?region=nac")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/NTK3139P-D.PDF")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

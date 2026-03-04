@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CONMHF4_SMD_G_T'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "CONMHF4-SMD-G-T" (!) = "", "CONMHF4SMDGT", "Other", "N/A", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/CONMHF4-SMD-G-T?qs=3Rah4i%252BhyCHAjcyagtfN7A%3D%3D", "Body Features: Body Material Copper Alloy | Body Plating Material Gold | Configuration Features: Number of Coaxial Contacts 1 | Number of Positions 1 | Electrical Characteristics: Impedance 50 OHM | Mechanical Attachment: Connector Mounting Type Board Mount | RF Connector Coupling Mechanism Snap-On | Operation/Application: Operating Frequency 6 GHZ | Circuit Application Signal | Other: Dielectric Material LCP | Product Type Features: Sealable No | RF Interface UMCC | Connector Product Type Connector Assembl", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=conmhf4-smd-g-t-ds&DocType=Data%20Sheet&DocLang=English&PartCntxt=CONMHF4-SMD-G-T&DocFormat=pdf", "0.6 mm"
+END_PART
+
+END.

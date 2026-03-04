@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XC8114AA0102_G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Torex", "XC8114AA0102-G" (!) = "", "XC8114AA0102G", "Other", "", "", "", "", "3A Load switch IC with ideal diode function", "https://product.torexsemi.com/system/files/series/xc8114.pdf", "0.495 mm"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.U.FL-R-SMT_10_ :1 ;U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder
+UFLRSMT10
+*STM J
+*NGS
+*PLB 1="SIG" 2="GND_1" 3="GND_2"
+*MXP 3
+*DFN U.FL-R-SMT_10_
+~!Mouser Part Number (798-U.FL-R-SMT10)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Hirose-Connector/U.FL-R-SMT10?qs=Ux3WWAnHpjBT1CWD8UMEMQ%3D%3D)
+~!Manufacturer_Name (Hirose)
+~!Manufacturer_Part_Number (U.FL-R-SMT(10))
+~!Link Datasheet (-)
+~!Height (1.45mm)
+~!3D_Model (U.FL-R-SMT_10_)
+U.FL-R-SMT_10_
+1.1!U 2.1!U 3.1!U 

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RV-3032-C7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-13-11:32:51)
+    (mountForm default
+        (footprintRef "RV3032C7")
+        (spec "System")
+    )
+)

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CONMHF4-SMD-G-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-04-16-10:08:20)
+    (mountForm default
+        (footprintRef "CONMHF4SMDGT")
+        (spec "System")
+    )
+)

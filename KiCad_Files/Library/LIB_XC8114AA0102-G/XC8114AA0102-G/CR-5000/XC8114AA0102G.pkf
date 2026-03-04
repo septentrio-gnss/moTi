@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XC8114AA0102G"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XC8114AA0102G")
+        (spec "default")
+    )
+)

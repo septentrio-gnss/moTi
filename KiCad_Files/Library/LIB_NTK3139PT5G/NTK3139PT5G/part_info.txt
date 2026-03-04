@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=NTK3139PT5G
+PartCategory=MOSFET (P-Channel)
+PackageCategory=SO Transistor Flat Lead
+PinCount=3
+Version=3.1
+Released=2017-03-31 09:58:44
+Downloaded=2025-09-15 10:51:16
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '74LVC1G126GM_115'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "74LVC1G126GM,115" (!) = "", "PESD3V3L5UF115", "Other", "771-LVC1G126GM115", "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G126GM115?qs=me8TqzrmIYUE2IDcVyc9jA%3D%3D", "74LVC1G126 - Bus buffer/line driver; 3-state@en-us", "https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf", "0.5 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=74LVC1G126GM,115
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=6
+Version=8.2
+Released=2019-11-12 07:41:52
+Downloaded=2025-08-21 13:07:33
+3D=Y

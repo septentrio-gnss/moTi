@@ -1,0 +1,197 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "71bda287-64d1-4cb6-91cb-b267836afcca")
+	(paper "A3")
+	(title_block
+		(title "M2_mosaic G5-T_Module ")
+		(date "2025-09-02")
+		(rev "01")
+		(company "Septentrio")
+	)
+	(lib_symbols)
+	(text "CHANGE LOG"
+		(exclude_from_sim no)
+		(at 67.818 96.266 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b1d83f72-11d8-402d-9186-bc759af16342")
+	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 26.67 29.21 34.29 95.25)
+		(row_heights 5.08 5.08)
+		(cells
+			(table_cell "Revision"
+				(exclude_from_sim no)
+				(at 44.45 101.6 0)
+				(size 26.67 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "ada5d1a5-7d35-4751-adb0-2bcd18b9d105")
+			)
+			(table_cell "Date"
+				(exclude_from_sim no)
+				(at 71.12 101.6 0)
+				(size 29.21 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "e5982a6c-7abe-45e7-ba15-84cec7437b2c")
+			)
+			(table_cell "Designer"
+				(exclude_from_sim no)
+				(at 100.33 101.6 0)
+				(size 34.29 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "cb9affe2-4a28-4968-b19e-a1b88ec6e63e")
+			)
+			(table_cell "Description"
+				(exclude_from_sim no)
+				(at 134.62 101.6 0)
+				(size 95.25 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "63b04e26-eac0-4e33-a9bf-56e1a3bc70d3")
+			)
+			(table_cell "01"
+				(exclude_from_sim no)
+				(at 44.45 106.68 0)
+				(size 26.67 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "274a967e-d204-4997-9ac8-d524f336f945")
+			)
+			(table_cell "2025-09-01"
+				(exclude_from_sim no)
+				(at 71.12 106.68 0)
+				(size 29.21 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "54b7981e-418f-4140-ac9b-60ce1327a580")
+			)
+			(table_cell "K. Heyndrickx"
+				(exclude_from_sim no)
+				(at 100.33 106.68 0)
+				(size 34.29 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "94ddc249-44c7-4378-ab76-bdfe5cf74b74")
+			)
+			(table_cell "Initial release"
+				(exclude_from_sim no)
+				(at 134.62 106.68 0)
+				(size 95.25 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "8b0c579b-e822-4ae8-b0ba-209c5bb25cd5")
+			)
+		)
+	)
+)

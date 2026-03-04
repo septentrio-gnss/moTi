@@ -1,0 +1,214 @@
+(footprint "SOT65P210X110-5N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DCK0005A_2025-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d016947d-4587-4f9b-9d99-e167775442ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT65P210X110-5N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "447f4716-1ce9-4347-b748-41597391b6fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv3511.pdf?ts=1757593113900&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV3511%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DTLV3511%2526ds_k%253DTLV3511%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F0NSRSEXlZzb62FrWjANLQKd%2526gclid%253DCj0KCQjw5onGBhDeARIsAFK6QJYQLTGVyQILfDoERfb8oScI8CJswsvyECnPRNBuXocYMHBc9D1ZfeoaAuQREALw_wcB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "822794b8-6b51-4b7b-af9b-62409cdb7900")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30e872d3-7401-4bee-87f0-54c7e0dcf4a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.55 -1.125)
+		(end -0.35 -1.125)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc9577db-2045-4ed7-807b-d8b36a797b61")
+	)
+	(fp_line
+		(start -1.8 -1.325)
+		(end 1.8 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "339865ad-3a33-4074-b998-a60b70cb61c5")
+	)
+	(fp_line
+		(start -1.8 1.325)
+		(end -1.8 -1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e78fb24e-c898-4f6e-af51-c34f4c421afc")
+	)
+	(fp_line
+		(start 1.8 -1.325)
+		(end 1.8 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3dd9b349-ff4d-494b-9914-4feccdcf593c")
+	)
+	(fp_line
+		(start 1.8 1.325)
+		(end -1.8 1.325)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f99a7267-2f40-4b78-ad67-e175e66f4284")
+	)
+	(fp_line
+		(start -0.625 -1)
+		(end 0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34e3fb03-d310-4e86-a1da-670d6c3d1c60")
+	)
+	(fp_line
+		(start -0.625 -0.35)
+		(end 0.025 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9dbac62e-59ff-4fc3-b826-9193a2780644")
+	)
+	(fp_line
+		(start -0.625 1)
+		(end -0.625 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a3819fa-3441-4e9d-b4dc-1d4d72c789e2")
+	)
+	(fp_line
+		(start 0.625 -1)
+		(end 0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9799eea-b21f-4456-9722-64df8e893fe9")
+	)
+	(fp_line
+		(start 0.625 1)
+		(end -0.625 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "431cbd22-9a7a-41df-a5e4-ae1dd6044b6e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dcf23b8d-3c07-40c7-ba48-fdd249d8545c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 -0.65 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "e52a9f7e-43e8-4305-87d0-4747bbe3481a")
+	)
+	(pad "2" smd rect
+		(at -0.95 0 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "86912b8c-93ff-4a76-a3d2-e15836327dae")
+	)
+	(pad "3" smd rect
+		(at -0.95 0.65 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "8036c383-96bb-4fe1-a29e-e74f00c2def7")
+	)
+	(pad "4" smd rect
+		(at 0.95 0.65 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "4458cd23-ed07-4cf8-9b74-86db5040d38c")
+	)
+	(pad "5" smd rect
+		(at 0.95 -0.65 90)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "7668251b-795f-45f6-a850-e69f0f21457b")
+	)
+	(embedded_fonts no)
+	(model "C:/PBAs/Stargate/Library/LIB_TLV3511DCKR/TLV3511DCKR/3D/TLV3511DCKR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

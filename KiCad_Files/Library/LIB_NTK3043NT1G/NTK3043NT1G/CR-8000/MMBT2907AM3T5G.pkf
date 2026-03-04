@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MMBT2907AM3T5G"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MMBT2907AM3T5G")
+        (spec "default")
+    )
+)

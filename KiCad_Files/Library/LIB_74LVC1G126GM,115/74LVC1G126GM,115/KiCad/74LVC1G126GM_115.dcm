@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G126GM,115
+D 74LVC1G126 - Bus buffer/line driver; 3-state@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf
+$ENDCMP
+#
+#End Doc Library

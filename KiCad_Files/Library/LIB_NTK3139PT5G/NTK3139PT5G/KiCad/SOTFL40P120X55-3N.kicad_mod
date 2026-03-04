@@ -1,0 +1,240 @@
+(footprint "SOTFL40P120X55-3N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT-723 CASE 631AA")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "11f0a568-41fe-4db5-b438-fb44827dee03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOTFL40P120X55-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4a6ac700-ad5f-4c37-b0f1-24ac702f9b75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1795f347-a31f-419a-a49c-c383f403577d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67ae3637-2393-472a-8a6a-40f8c17998a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.865 -0.85)
+		(end -0.4 -0.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e609b2a2-2616-4712-9523-71e1ff29fda9")
+	)
+	(fp_line
+		(start -0.05 -0.6)
+		(end 0.05 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40a7e4b9-ae6f-4559-83f3-971d9bdd62c9")
+	)
+	(fp_line
+		(start -0.05 0.6)
+		(end -0.05 -0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f6e06a2-3c9b-4b6a-9bb0-c4022a372680")
+	)
+	(fp_line
+		(start 0.05 -0.6)
+		(end 0.05 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "030a5b93-8992-4421-89e9-a6ae861f6545")
+	)
+	(fp_line
+		(start 0.05 0.6)
+		(end -0.05 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12b0a9a9-8692-4f03-82ec-cf41c80e8b5f")
+	)
+	(fp_line
+		(start -1.015 -0.775)
+		(end 1.015 -0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "139d17bf-5e1d-488b-ad57-98db178a3aef")
+	)
+	(fp_line
+		(start -1.015 0.775)
+		(end -1.015 -0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4837b862-2af2-4248-956f-5a6bc8ba9211")
+	)
+	(fp_line
+		(start 1.015 -0.775)
+		(end 1.015 0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2c5435bc-85ef-47f5-8b3d-d0aaeaa160aa")
+	)
+	(fp_line
+		(start 1.015 0.775)
+		(end -1.015 0.775)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6baf3b2a-43d0-4346-8fc5-f80398f0834f")
+	)
+	(fp_line
+		(start -0.4 -0.6)
+		(end 0.4 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "019401a6-c960-416b-9713-4a719733f86e")
+	)
+	(fp_line
+		(start -0.4 -0.2)
+		(end 0 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0193174c-a610-455a-9403-3d75f80120f9")
+	)
+	(fp_line
+		(start -0.4 0.6)
+		(end -0.4 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "690738dc-1572-4d18-aaa7-73b142b5e823")
+	)
+	(fp_line
+		(start 0.4 -0.6)
+		(end 0.4 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3790d422-0bb3-448c-b5e5-f7092aaebac1")
+	)
+	(fp_line
+		(start 0.4 0.6)
+		(end -0.4 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d428464-ccb6-4104-af18-220a3cf45db8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e67b58bd-0905-428b-a89f-f0971230cf19")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.632 -0.4 90)
+		(size 0.4 0.465)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "3aeb8d99-b9af-469f-8d22-399a05dfc622")
+	)
+	(pad "2" smd rect
+		(at -0.632 0.4 90)
+		(size 0.4 0.465)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "886ae2f7-1596-4b40-8593-9b3163a64fee")
+	)
+	(pad "3" smd rect
+		(at 0.632 0 90)
+		(size 0.4 0.465)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.05)
+		(uuid "6118db55-b359-4ede-aff0-7840dc116a49")
+	)
+	(embedded_fonts no)
+	(model "C:/PBAs/Stargate/Library/LIB_NTK3139PT5G/NTK3139PT5G/3D/NTK3139PT5G.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

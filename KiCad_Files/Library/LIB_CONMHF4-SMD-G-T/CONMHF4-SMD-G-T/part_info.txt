@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=CONMHF4-SMD-G-T
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=2.8
+Released=2023-08-20 09:50:47
+Downloaded=2025-08-19 14:35:57
+3D=Y

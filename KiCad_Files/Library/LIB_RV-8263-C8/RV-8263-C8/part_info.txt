@@ -1,0 +1,9 @@
+Manufacturer=Micro Crystal AG
+PartNumber=RV-8263-C8
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=8
+Version=5.2
+Released=2023-07-22 08:29:46
+Downloaded=2025-09-09 12:16:17
+3D=Y

@@ -1,0 +1,18 @@
+.RV-8263-C8 :1 ;Real-Time Clock Module
+RV8263C8
+*STM Y
+*NGS
+*PLB 1="SDA" 2="CLKOE" 3="'INT'" 4="VSS" 5="VDD" 6="NC" 7="CLKOUT" 8="SCL"
+*MXP 8
+*DFN RV-8263-C8
+~!Manufacturer_Name (Micro Crystal AG)
+~!Manufacturer_Part_Number (RV-8263-C8)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-8263-C8.pdf)
+~!Height (0.7mm)
+~!3D_Model (RV-8263-C8)
+RV-8263-C8
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

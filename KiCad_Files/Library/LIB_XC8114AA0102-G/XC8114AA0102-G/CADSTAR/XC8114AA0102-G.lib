@@ -1,0 +1,18 @@
+.XC8114AA0102-G :1 ;3A Load switch IC with ideal diode function
+XC8114AA0102G
+*STM IC
+*NGS
+*PLB 1="VIN" 2="EN" 3="VSS" 4="VOUT"
+*MXP 4
+*DFN XC8114AA0102-G
+~!Manufacturer_Name (Torex)
+~!Manufacturer_Part_Number (XC8114AA0102-G)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://product.torexsemi.com/system/files/series/xc8114.pdf)
+~!Height (0.495mm)
+~!3D_Model (XC8114AA0102-G)
+XC8114AA0102-G
+1.1!U 2.1!U 3.1!U 4.1!U 

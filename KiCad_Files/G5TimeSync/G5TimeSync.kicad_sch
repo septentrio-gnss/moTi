@@ -1,0 +1,685 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a9fd92c2-3c56-4e0a-a5ac-af47c0a80946")
+	(paper "A3")
+	(title_block
+		(title "M2_mosaic G5-T_Module ")
+		(date "2025-09-02")
+		(rev "01")
+		(company "Septentrio")
+	)
+	(lib_symbols
+		(symbol "PCB_label:EXT-0060-1001-AA01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PCB"
+				(at 0 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EXT-0060-1001-AA01_0_1"
+				(rectangle
+					(start -11.43 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "EXT-0060-1001-AA01_1_1"
+				(text "EXT-0060-1001-AA01"
+					(at 1.016 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "CHANGE LOG"
+		(exclude_from_sim no)
+		(at 48.768 35.306 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "39687290-04c5-420a-8137-a193907663c6")
+	)
+	(text "Table of content\n"
+		(exclude_from_sim no)
+		(at 56.642 73.406 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "53b4676e-11ef-496b-a658-1682d0ca7311")
+	)
+	(polyline
+		(pts
+			(xy 133.35 66.04) (xy 133.35 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb81699-cc75-4c7d-a9cb-08d7b96cdca3")
+	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 26.67 29.21 34.29 95.25)
+		(row_heights 5.08 5.08)
+		(cells
+			(table_cell "Revision"
+				(exclude_from_sim no)
+				(at 25.4 40.64 0)
+				(size 26.67 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "ada5d1a5-7d35-4751-adb0-2bcd18b9d105")
+			)
+			(table_cell "Date"
+				(exclude_from_sim no)
+				(at 52.07 40.64 0)
+				(size 29.21 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "e5982a6c-7abe-45e7-ba15-84cec7437b2c")
+			)
+			(table_cell "By"
+				(exclude_from_sim no)
+				(at 81.28 40.64 0)
+				(size 34.29 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "cb9affe2-4a28-4968-b19e-a1b88ec6e63e")
+			)
+			(table_cell "Description"
+				(exclude_from_sim no)
+				(at 115.57 40.64 0)
+				(size 95.25 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "63b04e26-eac0-4e33-a9bf-56e1a3bc70d3")
+			)
+			(table_cell "01"
+				(exclude_from_sim no)
+				(at 25.4 45.72 0)
+				(size 26.67 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "274a967e-d204-4997-9ac8-d524f336f945")
+			)
+			(table_cell "2025-09-01"
+				(exclude_from_sim no)
+				(at 52.07 45.72 0)
+				(size 29.21 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "54b7981e-418f-4140-ac9b-60ce1327a580")
+			)
+			(table_cell "K. Heyndrickx"
+				(exclude_from_sim no)
+				(at 81.28 45.72 0)
+				(size 34.29 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "94ddc249-44c7-4378-ab76-bdfe5cf74b74")
+			)
+			(table_cell "Initial release"
+				(exclude_from_sim no)
+				(at 115.57 45.72 0)
+				(size 95.25 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "8b0c579b-e822-4ae8-b0ba-209c5bb25cd5")
+			)
+		)
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 24.13 63.5)
+		(row_heights 5.08 5.08 5.08 5.08 5.08)
+		(cells
+			(table_cell "PAGE#"
+				(exclude_from_sim no)
+				(at 26.67 80.01 0)
+				(size 24.13 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "41efe396-6802-4182-b5fa-7e0925bea54e")
+			)
+			(table_cell "DESCRIPTION"
+				(exclude_from_sim no)
+				(at 50.8 80.01 0)
+				(size 63.5 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "109cd43d-72d6-4df2-ac08-1b051fdf9c44")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 26.67 85.09 0)
+				(size 24.13 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify top)
+				)
+				(uuid "ac4a009c-5009-4bf3-85c8-436ecdb708fa")
+			)
+			(table_cell "Title page"
+				(exclude_from_sim no)
+				(at 50.8 85.09 0)
+				(size 63.5 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "d2ecdb5f-ea3b-461b-80b0-2762f5e6e5af")
+			)
+			(table_cell "2"
+				(exclude_from_sim no)
+				(at 26.67 90.17 0)
+				(size 24.13 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify top)
+				)
+				(uuid "7c5c3559-c56d-4481-82f6-3b0488a64829")
+			)
+			(table_cell "M.2 KEY B EDGE CONNECTOR"
+				(exclude_from_sim no)
+				(at 50.8 90.17 0)
+				(size 63.5 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "788cf2ef-0600-4d1d-bee9-738448f5789d")
+			)
+			(table_cell "3"
+				(exclude_from_sim no)
+				(at 26.67 95.25 0)
+				(size 24.13 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify top)
+				)
+				(uuid "8923070c-aa3a-4ac3-bb1c-0f85cdc40d7d")
+			)
+			(table_cell "mosaic-G5 T"
+				(exclude_from_sim no)
+				(at 50.8 95.25 0)
+				(size 63.5 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "ebb5e1a2-57fa-47a3-aad3-83f14eddbb6d")
+			)
+			(table_cell "4"
+				(exclude_from_sim no)
+				(at 26.67 100.33 0)
+				(size 24.13 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify top)
+				)
+				(uuid "0133bd60-be77-4562-9330-c2c553b44749")
+			)
+			(table_cell "CLOCK DETECTION"
+				(exclude_from_sim no)
+				(at 50.8 100.33 0)
+				(size 63.5 5.08)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "f1534da5-33af-440b-89cd-66d3946db757")
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCB_label:EXT-0060-1001-AA01")
+		(at 190.5 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa1d3d9-6662-4bb9-b434-fee7d1ecaa9c")
+		(property "Reference" "PCB1"
+			(at 191.135 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 191.135 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCB_label:PCB_label"
+			(at 190.5 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946"
+					(reference "PCB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 259.08)
+		(size 39.37 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c55496e-da21-44b0-9ae8-5da26b28f5e7")
+		(property "Sheetname" "Clock detection"
+			(at 128.27 258.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Clockdetect.kicad_sch"
+			(at 128.27 268.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M2_mosaicG5"
+				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 259.08)
+		(size 39.37 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85b8fc18-76b7-46aa-a23c-a93a696263bf")
+		(property "Sheetname" "M.2 Key B Edge Connector"
+			(at 39.37 258.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "M2_Edge connector.kicad_sch"
+			(at 39.37 268.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M2_mosaicG5"
+				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 259.08)
+		(size 39.37 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bde354f0-d05f-47ff-ad0f-ae1e8fb8db93")
+		(property "Sheetname" "mosaic-G5"
+			(at 83.82 258.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mosaic-G5.kicad_sch"
+			(at 83.82 268.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "M2_mosaicG5"
+				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

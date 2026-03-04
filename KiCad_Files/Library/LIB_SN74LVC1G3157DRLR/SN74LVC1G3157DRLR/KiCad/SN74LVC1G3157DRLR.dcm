@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC1G3157DRLR
+D Single-Pole, Double-Throw Analog Switch
+K
+F http://www.ti.com/lit/gpn/sn74lvc1g3157
+$ENDCMP
+#
+#End Doc Library

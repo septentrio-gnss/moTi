@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "74LVC1G126GM_115"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-11-13-12:05:00)
+    (mountForm default
+        (footprintRef "PESD3V3L5UF115")
+        (spec "System")
+    )
+)

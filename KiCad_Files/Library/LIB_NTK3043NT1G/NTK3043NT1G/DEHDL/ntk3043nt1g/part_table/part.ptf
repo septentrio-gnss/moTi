@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NTK3043NT1G'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "NTK3043NT1G" (!) = "", "MMBT2907AM3T5G", "Other", "863-NTK3043NT1G", "https://www.mouser.co.uk/ProductDetail/onsemi/NTK3043NT1G?qs=ZXBb0xZ9WeAmhKltwz1s8A%3D%3D", "Enables High Density PCB Manufacturing; 44% Smaller Footprint than SC-89 and 38% Thinner than SC-89; Low Voltage Drive Makes this Device Ideal for Portable Equipment; Low Threshold Levels, VGS(TH) < 1.3 V; Low Profile (< 0.5 mm) Allows It to Fit Easily in Extremely Thin Environments such as Protable Electronics.; Operated at Standard Logic Level Gate Drive, Facilitating Future Migration to Lower Levels Using the Same Basic Topolgy.", "https://www.onsemi.com/pub/Collateral/NTK3043N-D.PDF", "1 mm"
+END_PART
+
+END.

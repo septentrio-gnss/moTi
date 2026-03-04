@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "74LVC1G126GM_115"
+   (description "74LVC1G126 - Bus buffer/line driver; 3-state@en-us")
+   (family "ANA")
+   (package "PESD3V3L5UF115")
+   (attribute "Datasheet Link" "https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf")
+   (attribute "Geometry.Height" "0.5mm")
+   (attribute "Mouser Part Number" "771-LVC1G126GM115")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G126GM115?qs=me8TqzrmIYUE2IDcVyc9jA%3D%3D")
+   (attribute "Manufacturer_Name" "Nexperia")
+   (attribute "Manufacturer_Part_Number" "74LVC1G126GM,115")
+   (gate
+    (symbol "74LVC1G126GM_115")
+    (pin "OE" 1 PS)
+    (pin "A" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "Y" 4 PS)
+    (pin "n.c." 5 PS)
+    (pin "VCC" 6 PS)
+   )
+  )
+  (symbol "74LVC1G126GM_115"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PESD3V3L5UF115"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.725 0.5)
+      (pt 0.725 0.5)
+      (pt 0.725 -0.5)
+      (pt -0.725 -0.5)
+      (pt -0.725 0.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.225 1.022)
+      (pt 1.225 1.022)
+      (pt 1.225 -1.25)
+      (pt -1.225 -1.25)
+      (pt -1.225 1.022))))
+   (layer TSLK
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.5 -0.7)
+      (arc (pt -0.500 -0.700) (pt -0.525 -0.750) (pt -0.475 -0.700) (start -180.0) (sweep 90.0))
+      (pt -0.5 -0.75)
+      (arc (pt -0.500 -0.750) (pt -0.525 -0.750) (pt -0.475 -0.700) (start -180.0) (sweep -90.0))
+      (pt -0.5 -0.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.725 -0.05)
+      (pt -0.725 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.725 -0.05)
+      (pt 0.725 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.725 0)
+      (pt -0.725 0.05))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0.725 0)
+      (pt 0.725 0.05))))
+   (leg 1 (pt -0.500 -0.337) (padstack 0))
+   (leg 2 (pt 0.000 -0.337) (padstack 0))
+   (leg 3 (pt 0.500 -0.337) (padstack 0))
+   (leg 4 (pt 0.500 0.337) (padstack 0))
+   (leg 5 (pt 0.000 0.337) (padstack 0))
+   (leg 6 (pt -0.500 0.337) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.370 0.425 0 0 0.000))
+   )
+   (model "74LVC1G126GM,115.stp"
+    (euler -90 0 0)
+    (offset -1.059999942779541 -1.7400000095367432 1.2899999618530273)
+   )
+  )
+ )
+)

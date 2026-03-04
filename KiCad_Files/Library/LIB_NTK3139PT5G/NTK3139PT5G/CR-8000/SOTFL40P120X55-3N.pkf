@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SOTFL40P120X55-3N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SOTFL40P120X55-3N")
+        (spec "default")
+    )
+)

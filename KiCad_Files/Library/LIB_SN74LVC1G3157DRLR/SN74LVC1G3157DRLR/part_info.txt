@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74LVC1G3157DRLR
+PartCategory=Integrated Circuit
+PackageCategory=SO Transistor Flat Lead
+PinCount=6
+Version=1.1
+Released=2020-05-12 11:59:35
+Downloaded=2025-08-21 12:03:14
+3D=Y

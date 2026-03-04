@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTK3139PT5G
+D P-channel Switch with Low RDS(on); 44% Smaller Footprint and 38% Thinner than SC-89; Low Threshold Levels, 1.5 V RDS(on) Rating; RoHS Compliant; Operated at Low Logic Level Gate Drive
+K
+F https://www.onsemi.com/pub/Collateral/NTK3139P-D.PDF
+$ENDCMP
+#
+#End Doc Library

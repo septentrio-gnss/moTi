@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NTK3043NT1G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-09-30-12:36:16)
+    (mountForm default
+        (footprintRef "MMBT2907AM3T5G")
+        (spec "System")
+    )
+)

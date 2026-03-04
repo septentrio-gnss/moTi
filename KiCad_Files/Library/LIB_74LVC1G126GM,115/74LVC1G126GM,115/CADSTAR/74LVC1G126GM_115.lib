@@ -1,0 +1,16 @@
+.74LVC1G126GM_115 :1 ;74LVC1G126 - Bus buffer/line driver; 3-state@en-us
+PESD3V3L5UF115
+*STM IC
+*NGS
+*PLB 1="OE" 2="A" 3="GND" 4="Y" 5="n.c." 6="VCC"
+*MXP 6
+*DFN 74LVC1G126GM_115
+~!Mouser Part Number (771-LVC1G126GM115)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1G126GM115?qs=me8TqzrmIYUE2IDcVyc9jA%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (74LVC1G126GM,115)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/74LVC1G126.pdf)
+~!Height (0.5mm)
+~!3D_Model (74LVC1G126GM,115)
+"74LVC1G126GM_115"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

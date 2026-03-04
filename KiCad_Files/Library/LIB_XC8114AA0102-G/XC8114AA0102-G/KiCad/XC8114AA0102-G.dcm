@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC8114AA0102-G
+D 3A Load switch IC with ideal diode function
+K
+F https://product.torexsemi.com/system/files/series/xc8114.pdf
+$ENDCMP
+#
+#End Doc Library

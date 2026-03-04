@@ -1,0 +1,208 @@
+
+(EDIF
+  (rename &NTK3043NT1G "NTK3043NT1G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 09 05 14 21 03)
+      (dataOrigin "11391143/580223/2.50/3/2/MOSFET (N-Channel)")
+      (program "SamacSys ECAD Model NTK3043NT1G"
+        (version "2.2"))))
+  (library
+  (rename &NTK3043NT1G "NTK3043NT1G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &NTK3043NT1G "NTK3043NT1G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "Q")
+          (property (rename PACKAGENAME "PackageName") (string "NTK3043NT1G"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "MMBT2907AM3T5G"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "863-NTK3043NT1G"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/onsemi/NTK3043NT1G?qs=ZXBb0xZ9WeAmhKltwz1s8A%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "onsemi"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "NTK3043NT1G"))
+          (property (rename &Description "Description") (string "Enables High Density PCB Manufacturing; 44percent Smaller Footprint than SC-89 and 38percent Thinner than SC-89; Low Voltage Drive Makes this Device Ideal for Portable Equipment; Low Threshold Levels, VGS(TH) < 1.3 V; Low Profile (< 0.5 mm) Allows It to Fit Easily in Extremely Thin Environments such as Protable Electronics.; Operated at Standard Logic Level Gate Drive, Facilitating Future Migration to Lower Levels Using the Same Basic Topolgy."))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.onsemi.com/pub/Collateral/NTK3043N-D.PDF"))
+          (property (rename &Height "Height") (string "1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "NTK3043NT1G"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &G "G")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &S "S")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &D "D")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &G)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -100 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -100 -300))))
+            )
+            (portImplementation
+              (name &D)
+              (figure PIN (path (pointList (pt 200 100) (pt 200 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 100))))
+            )
+            (portImplementation
+              (name &S)
+              (figure PIN (path (pointList (pt 200 -500) (pt 200 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 200 -500))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -200)
+                  (pt 200 -400)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 200 0)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 -300)
+                  (pt 100 -300)
+                  (pt 100 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -200)
+                  (pt 130 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -100)
+                  (pt 130 -100)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -300)
+                  (pt 200 -300)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -80)
+                  (pt 130 -120)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -320)
+                  (pt 130 -280)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 130 -220)
+                  (pt 130 -180)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (circle
+                (pt 0 -200)
+                (pt 300 -200)
+              )
+            )
+              (figure GRAPHIC
+                (figureGroupOverride GRAPHIC
+	              (fillPattern 1 1
+                    (boolean
+                      (boolean
+                        (true)
+                      )
+                    )
+                  )
+                )
+              (polygon
+                (pointList
+                  (pt 130 -200)
+                  (pt 170 -180)
+                  (pt 170 -220)
+                  (pt 130 -200)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 350 -220))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 350 -320))))
+          )
+        )
+      )
+    )
+  )
+)

@@ -1,0 +1,118 @@
+
+(EDIF
+  (rename &XC8114AA0102_G "XC8114AA0102_G")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 08 21 08 50 30)
+      (dataOrigin "20420783/580223/2.50/4/2/Integrated Circuit")
+      (program "SamacSys ECAD Model XC8114AA0102_G"
+        (version "5.2"))))
+  (library
+  (rename &XC8114AA0102_G "XC8114AA0102_G")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &XC8114AA0102_G "XC8114AA0102_G")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "XC8114AA0102_G"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "XC8114AA0102G"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Torex"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "XC8114AA0102-G"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string ""))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string ""))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string ""))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string ""))
+          (property (rename &Description "Description") (string "3A Load switch IC with ideal diode function"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://product.torexsemi.com/system/files/series/xc8114.pdf"))
+          (property (rename &Height "Height") (string "0.495 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "XC8114AA0102_G"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &VIN "VIN")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &EN "EN")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &VSS "VSS")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &VOUT "VOUT")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &VIN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &EN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &VSS (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 700 -200) (pt 900 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 900 -200))))
+            )
+            (portImplementation
+              (name &VOUT (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 700 -100) (pt 900 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 900 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 700 0)
+                  (pt 700 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 750 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 750 30))))
+          )
+        )
+      )
+    )
+  )
+)

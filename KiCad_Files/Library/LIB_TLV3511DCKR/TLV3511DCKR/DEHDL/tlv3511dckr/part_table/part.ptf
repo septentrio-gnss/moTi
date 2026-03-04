@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV3511DCKR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV3511DCKR" (!) = "", "SOT65P210X110-5N", "SOT23 (5-Pin)", "", "", "Comparator General Purpose Push-Pull, Rail-to-Rail SC-70-5 ,2.7V ~ 5.5V ,85mA @ 5V ,2.3mV ,-40C ~ 125C ,SC-70-5", "https://www.ti.com/lit/ds/symlink/tlv3511.pdf?ts=1745033266633&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV3511%252Fpart-details%252FTLV3511DCKR", "1.1 mm"
+END_PART
+
+END.

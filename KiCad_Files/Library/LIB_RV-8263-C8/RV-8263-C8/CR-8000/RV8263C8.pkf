@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RV8263C8"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RV8263C8")
+        (spec "default")
+    )
+)

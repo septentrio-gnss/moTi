@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NTK3139PT5G
+#/4167774/580223/2.50/3/2/MOSFET (P-Channel)
+DEF NTK3139PT5G Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "NTK3139PT5G" 450 50 50 H V L CNN
+F2 "SOTFL40P120X55-3N" 450 -50 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/NTK3139P-D.PDF" 450 -150 50 H I L CNN
+F4 "P-channel Switch with Low RDS(on); 44% Smaller Footprint and 38% Thinner than SC-89; Low Threshold Levels, 1.5 V RDS(on) Rating; RoHS Compliant; Operated at Low Logic Level Gate Drive" 450 -250 50 H I L CNN "Description"
+F5 "0.55" 450 -350 50 H I L CNN "Height"
+F6 "onsemi" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "NTK3139PT5G" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "863-NTK3139PT5G" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/onsemi/NTK3139PT5G?qs=g97OBWmz8%2FXwvn%2FcSPxudQ%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "NTK3139PT5G" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ntk3139pt5g/on-semiconductor?region=nac" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

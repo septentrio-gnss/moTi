@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PESD3V3L5UF115"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PESD3V3L5UF115")
+        (spec "default")
+    )
+)

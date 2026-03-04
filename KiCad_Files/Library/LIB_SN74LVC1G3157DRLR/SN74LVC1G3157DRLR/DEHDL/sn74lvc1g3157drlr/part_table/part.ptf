@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LVC1G3157DRLR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "SN74LVC1G3157DRLR" (!) = "", "SOTFL50P160X60-6N", "SO Transistor Flat Lead", "595-SN74LVC1G3157DRL", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DRLR?qs=PVVDbbWpW3LmfSj83Os0NA%3D%3D", "Single-Pole, Double-Throw Analog Switch", "http://www.ti.com/lit/gpn/sn74lvc1g3157", "0.6 mm"
+END_PART
+
+END.

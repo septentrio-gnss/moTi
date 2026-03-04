@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_11391143"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-18-21:38:12)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "NTK3043NT1G")
+)
+
+
+(pinAssign "ECS_11391143"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-18-21:38:12)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_11391143")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "NTK3043NT1G")
+)
+
+
+(part "NTK3043NT1G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-10-18-21:38:12)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "NTK3043NT1G")
+    (pinAssignRef "ECS_11391143")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Enables High Density PCB Manufacturing; 44% Smaller Footprint than SC-89 and 38% Thinner than SC-89; Low Voltage Drive Makes this Device Ideal for Portable Equipment; Low Threshold Levels, VGS(TH) < 1.3 V; Low Profile (< 0.5 mm) Allows It to Fit Easily in Extremely Thin Environments such as Protable Electronics.; Operated at Standard Logic Level Gate Drive, Facilitating Future Migration to Lower Levels Using the Same Basic Topolgy.")
+    (property "Mouser_Part_Number" "863-NTK3043NT1G")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/NTK3043NT1G?qs=ZXBb0xZ9WeAmhKltwz1s8A%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "NTK3043NT1G")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/NTK3043N-D.PDF")
+    (property "compAreaTopHeight" 1)
+)
+
+

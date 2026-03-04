@@ -1,0 +1,16 @@
+.SN74LVC1G3157DRLR :1 ;Single-Pole, Double-Throw Analog Switch
+SOTFL50P160X60-6N
+*STM IC
+*NGS
+*PLB 1="B2" 2="GND" 3="B1" 4="A" 5="VCC" 6="S"
+*MXP 6
+*DFN SN74LVC1G3157DRLR
+~!Mouser Part Number (595-SN74LVC1G3157DRL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DRLR?qs=PVVDbbWpW3LmfSj83Os0NA%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SN74LVC1G3157DRLR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/sn74lvc1g3157)
+~!Height (0.6mm)
+~!3D_Model (SN74LVC1G3157DRLR)
+SN74LVC1G3157DRLR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 

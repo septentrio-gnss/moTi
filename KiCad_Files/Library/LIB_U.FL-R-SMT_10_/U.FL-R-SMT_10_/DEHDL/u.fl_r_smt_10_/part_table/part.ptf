@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'U.FL_R_SMT_10_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Hirose", "U.FL-R-SMT(10)" (!) = "", "UFLRSMT10", "Other", "798-U.FL-R-SMT10", "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/U.FL-R-SMT10?qs=Ux3WWAnHpjBT1CWD8UMEMQ%3D%3D", "U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder", "", "1.45 mm"
+END_PART
+
+END.

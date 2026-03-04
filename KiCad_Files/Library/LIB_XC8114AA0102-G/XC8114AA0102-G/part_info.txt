@@ -1,0 +1,9 @@
+Manufacturer=Torex
+PartNumber=XC8114AA0102-G
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=5.2
+Released=2025-03-13 10:10:21
+Downloaded=2025-08-21 08:50:30
+3D=Y

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_564502"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-07-10:36:02)
+    (utime 2025-06-09-08:20:51)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "U_FL-R-SMT_10_")
+)
+
+
+(pinAssign "ECS_564502"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-07-10:36:02)
+    (utime 2025-06-09-08:20:51)
+    (interface
+        (port "1" (symbPinId 1) (portName "SIG") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "GND_1") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "GND_2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_564502")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "U_FL-R-SMT_10_")
+)
+
+
+(part "U_FL-R-SMT_10_"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-12-07-10:36:02)
+    (utime 2025-06-09-08:20:51)
+    (packageRef "U_FL-R-SMT_10_")
+    (pinAssignRef "ECS_564502")
+    (interface
+        (port "1" (symbPinId 1) (portName "SIG") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "GND_1") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "GND_2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder")
+    (property "Mouser_Part_Number" "798-U.FL-R-SMT10")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/U.FL-R-SMT10?qs=Ux3WWAnHpjBT1CWD8UMEMQ%3D%3D")
+    (property "Manufacturer_Name" "Hirose")
+    (property "Manufacturer_Part_Number" "U.FL-R-SMT(10)")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 1.45)
+)
+
+
