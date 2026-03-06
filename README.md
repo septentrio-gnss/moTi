@@ -1,14 +1,25 @@
 # G5TimeSync
 Maintainer: [(Septentrio gnss github user)](githubuser@septentrio.com)
 License:[OCP CLA](https://www.opencompute.org/documents/ocp-cla)
+<!--ts-->
+## Table of Content
+* [What is the G5TimeSync?](What-is-the-G5TimeSync?)
+* [What is a Time Card?](#What-is-a-Time-Card?)
+* [What is a mosaic G5T?](#What-is-a-mosaic-G5T?)
+* [Who is Septemtrio?](#who-is-septentrio)
+* [User documentation](#User-documentation)
+    * [System SetUp](#System-SetUp)
+* [Design documentation](#Design-documentation)
+* [Hardware files](#Hardware-files)
 
+<!--ts-->
 ## What is the G5TimeSync?
 ![alt](/pictures/20260216_161412%20-%20Copy.png)
 
 The G5TimeSynch is a timing module that provides accurate and reliable asynchronization signals for the time-sensitive systems. It is based on the standard M.2 form factor.That allows it to be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Cards](#what-is-a-Time-Card?).
 This board receives precise timing information from Septentrio’s Moaic-G5 T GNSS Module (Global Navigation Satellite Systems) or Satellite time and location (STL) services. It then generates synchronization output such as Pulse Per Second (PPS) and Time of the ay (TOD) data. These signals are then used to synchronise services, in network interface cards and other hardware in data centres and communication systems.
 
-## Table of Content
+
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
 
@@ -31,7 +42,7 @@ Septentrio is a top company that designs, manufactures and sells high precision 
 
 Steptentrio's technology offers high accuracy and reliability thanks to GNSS + algorithms as well as [Septentrio's Advanced interference Monitoring and mitigation (AIM+)](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-anti-jamming-protection) This protects against jamming (RF interference) and spoofing
 
-For more information about Septentrio products go to https://www.septentrio.com/
+For more information about Septentrio products go to [**https://www.septentrio.com/**](https://web.septentrio.com/GH-SSN-home).
 
 ## User documentation
 
