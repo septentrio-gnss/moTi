@@ -1,46 +1,46 @@
-# G5TimeSync
+# MosaicTimeSync
 Maintainer: [(Septentrio gnss github user)](githubuser@septentrio.com)
 License:[OCP CLA](https://www.opencompute.org/documents/ocp-cla)
-<!--ts-->
+
 ## Table of Content
-* [What is the G5TimeSync?](What-is-the-G5TimeSync?)
+* [What is the MosaicTimeSync?](What-is-the-MosaicTimeSync?)
 * [What is a Time Card?](#What-is-a-Time-Card?)
-* [What is a mosaic G5T?](#What-is-a-mosaic-G5T?)
+* [What is a mosaic-G5 T?](#What-is-a-mosaicG5-T?)
 * [Who is Septemtrio?](#who-is-septentrio)
 * [User documentation](#User-documentation)
     * [System SetUp](#System-SetUp)
 * [Design documentation](#Design-documentation)
 * [Hardware files](#Hardware-files)
 
-<!--ts-->
-## What is the G5TimeSync?
+
+## What is the MosaicTimeSync?
 ![alt](/pictures/20260216_161412%20-%20Copy.png)
 
-The G5TimeSynch is a timing module that provides accurate and reliable asynchronization signals for the time-sensitive systems. It is based on the standard M.2 form factor.That allows it to be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Cards](#what-is-a-Time-Card?).
-This board receives precise timing information from Septentrio’s Moaic-G5 T GNSS Module (Global Navigation Satellite Systems) or Satellite time and location (STL) services. It then generates synchronization output such as Pulse Per Second (PPS) and Time of the ay (TOD) data. These signals are then used to synchronise services, in network interface cards and other hardware in data centres and communication systems.
+The MosaicTimeSync is a timing module that provides accurate and reliable asynchronisation signals for time-sensitive systems. It is based on a standardised M.2 form factor that allows to be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
+This board receives precise timing information from Septentrio’s Moaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards, and other hardware in data centres and communication systems.
 
 
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
 
-A Time Card is a PCle card that is designed to plug into a server and turns into a precision time outputs such as PPS (Pulse Perr Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocol like the NTP or PTP. The G5TimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
+A Time Card is a PCle card that is designed to plug into a server and turns into a precision time outputs such as PPS (Pulse Perr Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocol like the NTP or PTP. TheMosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
 
 Originally it was developed by Meta and released though the Open Computer Project
 
 More information about the Timecard on this [link](https://github.com/Time-Appliances-Project/Time-Card?tab=readme-ov-file) 
 
-## What is a mosaic G5T?
+## What is a mosaic-G5 T?
 [Septentrio mosaic-G5 T](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-g5-t) is a compact, low-power GNSS timing receiver module with multi-band, multi-frequency capability. Designed for critical infrastructure and other applications where resilient and precise timing is essential, it ensures maximum security and uptime. It tracks all Global Navigation Satellite System (GNSS) constellations and supports both current and future signals. 
 
 #### Other mosaic versions
-You can used other [Mosaic modules](https://www.septentrio.com/en/products/gnss-receivers?f%5B0%5D=type%3A604), but you need to pay attention and take into consideration the functions and pins that could be exposed, then modify the design for the purpose of your own project. 
+You can used other [Mosaic modules](https://www.septentrio.com/en/products/gnss-receivers?f%5B0%5D=type%3A604), but you need to pay attention and consider the functions and pins that could be exposed, then modify the design for the purpose of your own project. 
 
-## Who is Septemtrio?
+## Who is Septentrio?
 ![logo](/pictures/Septentrio_logo.png)
 
 Septentrio is a top company that designs, manufactures and sells high precision and multi-frequency GPS/GNSS receivers for demanding applications. Septentrio products are used in different industries including automotive, marine, construction, rail, machine control, logistics, precision agriculture, geographic information systems (GIS), Unmanned aerial vehicles (UAVs), survey, mapping and scientific. Septentrio’s receivers constantly delivers accurate and precise GNSS positioning scalable to centimetre-level designed to perform perfectly in challenging environments. 
 
-Steptentrio's technology offers high accuracy and reliability thanks to GNSS + algorithms as well as [Septentrio's Advanced interference Monitoring and mitigation (AIM+)](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-anti-jamming-protection) This protects against jamming (RF interference) and spoofing
+Septentrio's technology offers high accuracy and reliability thanks to GNSS + algorithms as well as [Advanced interference Monitoring and mitigation (AIM+)](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-anti-jamming-protection) This protects your application against jamming (RF interference) and spoofing (malicious attacks).
 
 For more information about Septentrio products go to [**https://www.septentrio.com/**](https://web.septentrio.com/GH-SSN-home).
 
@@ -145,8 +145,10 @@ These are normal steps to get the Time Card recognized by Linux.
 
 ### Hardware files
 * KiCad Project files
-* schematics PBF 
+* Schematics PDF 
 * BOM (Bill Of Materials)
+#### Ordering mosaic
+
 
 ![block](/pictures/block%20diagram.png)
 
