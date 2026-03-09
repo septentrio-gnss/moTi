@@ -149,8 +149,7 @@ These are normal steps to get the Time Card recognized by Linux.
 * BOM (Bill Of Materials)
 #### Ordering mosaic
 
-
-![block](/pictures/block%20diagram.png)
+<img src="/pictures/block%20diagram.png" width="80%">
 
 The above is a block diagram showing the overview communication between the antenna, receiver and M.2 edge connector. 
 
