@@ -151,7 +151,7 @@ These are normal steps to get the Time Card recognized by Linux.
 
 <img src="/pictures/block%20diagram.png" width="80%">
 
-The above is a block diagram showing the overview communication between the antenna, receiver and M.2 edge connector. 
+The above block diagram is showing the overview communication between the antenna, receiver and M.2 edge connector. 
 
 ### Board connections and indicators
 
