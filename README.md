@@ -164,7 +164,6 @@ These Pins are mandatory so they should be exposed to the Time Card.
 |Power 3.3V         |
 | USB 2.0           |
 | UART              |
-| I2C               |
 | LED1              |
 | RESET             |
 | 1 Hz PPS Out      |
@@ -176,13 +175,9 @@ When the module is inserted into a card that supports USB on its edge connector,
 **UART** (Universal Asynchronous Receiver Transmitter)
 This is a standard serial port using COM1, TX, COM1 and RX pins.
 
-**I2C** (Inter-Integrated Circuit) target or slave interface. This uses I2C SCL and I2C SDA pins.  It operates as the slave on the Time Card, used for retrieving configuration/state or adjusting settings.
-
 **LED#1** provides real time status 
 
-**RESET** resets hardware input to reinitialise the module.
-
-**1Hz PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card Clocking system.
+**PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card Clocking system.
 
 | Optional data interfaces signals |
 |----------------------------------|
@@ -204,7 +199,7 @@ This LED indicates if the Module is ON/OFF
 ##### Antenna connector
 ![alt](/pictures/antenna.PNG)
 
-This connector is the standard 2x2mm size RF receptacle connecotors
+This connector is a U.FL (UMCC) Connector receptacle, Male PIn 50 Ohms 
 
 #### Connection with the Timecard
 
@@ -216,8 +211,8 @@ This connector is the standard 2x2mm size RF receptacle connecotors
 
 | Pin # |Signal            |
 |-------|------------------|
-| 7	USB |D+                |
-| 9	USB |D-                |
+| 7	 |USB D+               |
+| 9	 |USB D-               |
 | 23	|10MHz clock input |
 | 67	|nRST_IN           |
 | 2, 4	|VBAT              |
@@ -225,13 +220,11 @@ This connector is the standard 2x2mm size RF receptacle connecotors
 | 20	|PPS2              |
 | 22	|Ref_CLK_SEL       |
 | 24	|PPS input         |
-| 40	|I2C SCL           |
-| 42	|I2C SDA           |
 | 46	|PPS1              |
 | 48	|10MHz clock output|
 | 62	|UART COM1 Rx      |
 | 64	|UART COM1 Tx      |
-| 70, 72, 74|   PWD        |
+| 70, 72, 74|   Power 3.3v        |
 | GND	|GND               |
 
 #### Pinout for MosaicG5 T
