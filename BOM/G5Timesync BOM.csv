@@ -25,7 +25,7 @@ R6,0,Resistor,1,Vishay,CRCW04020000Z0EDC
 R7,4k7,Resistor,1,Vishay,CRCW04024K70FKED
 R8,4k7,Resistor,1,Vishay,CRCW04024K70FKED
 R9,10k,Resistor,1,Vishay,CRCW040210K0FKED
-U1,mosaic-G5 T,,1,Septentrio,410504
+U1,mosaic-G5 T,GNSS timing receiver,1,Septentrio,410504
 U2,TLV3511DCKR,"Comparator General Purpose Push-Pull, Rail-to-Rail SC-70-5 ,2.7V ~ 5.5V ,85mA @ 5V ,2.3mV ,-40C ~ 125C ,SC-70-5",1,Texas Instruments,TLV3511DCKR
 U5,SN74LVC1G3157DRLR,"Single-Pole, Double-Throw Analog Switch",1,Texas Instruments,SN74LVC1G3157DRLR
 Y1,RV-3032-C7,Real-Time Clock Module,1,Micro Crystal AG,RV-3032-C7 32.768kHz-2.5PPM-TA-QC

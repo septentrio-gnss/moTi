@@ -23,7 +23,7 @@ This board receives precise timing information from Septentrio’s Moaic-G5 T GN
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
 
-A Time Card is a PCle card that is designed to plug into a server and turns into a precision time outputs such as PPS (Pulse Perr Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocol like the NTP or PTP. TheMosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
+A Time Card is a PCle card that is designed to plug into a server and turns into a precision time outputs such as PPS (Pulse Perr Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocol like the NTP or PTP. The MosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
 
 Originally it was developed by Meta and released though the Open Computer Project
 
@@ -33,7 +33,7 @@ More information about the Time Card on this [link](https://fr.scribd.com/docume
 [Septentrio mosaic-G5 T](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-g5-t) is a compact, low-power GNSS timing receiver module with multi-band, multi-frequency capability. Designed for critical infrastructure and other applications where resilient and precise timing is essential, it ensures maximum security and uptime. It tracks all Global Navigation Satellite System (GNSS) constellations and supports both current and future signals. 
 
 #### Other mosaic versions
-You can used other [Mosaic modules](https://www.septentrio.com/en/products/gnss-receivers?f%5B0%5D=type%3A604), but you need to pay attention and consider the functions and pins that could be exposed, then modify the design for the purpose of your own project. 
+You can used other [mosaic modules](https://www.septentrio.com/en/products/gnss-receivers?f%5B0%5D=type%3A604), but you need to pay attention and consider the functions and pins that could be exposed, then modify the design for the purpose of your own project. 
 
 ## Who is Septentrio?
 ![logo](/pictures/Septentrio_logo.png)
@@ -147,8 +147,8 @@ These are normal steps to get the Time Card recognized by Linux.
 * KiCad Project files
 * Schematics PDF 
 * BOM (Bill Of Materials)
-#### Ordering Mosaic
-If you need to order a Mosaic-G5 T please contact [Septentrio](#Who is Septemtrio?)
+#### Ordering mosaic
+If you need to order a mosaic-G5 T please contact [Septentrio](#Who is Septemtrio?)
 
 <img src="/pictures/block%20diagram.png" width="80%">
 
@@ -200,7 +200,7 @@ This is a standard serial port using TX and RX pins.
 
 **PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card Clocking system. 
 
-**Event 1 (PPS IN)** This pin detects a pulse from an external device and records the exact GNSS time when the pulse happned. It is connected to the eventB pin of the Mosaic-G5 T
+**Event 1 (PPS IN)** This pin detects a pulse from an external device and records the exact GNSS time when the pulse happned. It is connected to the eventB pin of the mosaic-G5 T
 
 ##### LED D1
 ![alt](/pictures/LED2+.png)
