@@ -223,32 +223,10 @@ This connector is a U.FL (UMCC) Connector receptacle, Male PIn 50 Ohms
 | 48	|10MHz clock output|
 | 62	|UART COM1 Rx      |
 | 64	|UART COM1 Tx      |
-| 70, 72, 74|   Power 3.3v        |
+| 70, 72, 74|   Power 3.3v |
 | GND	|GND               |
 
-#### Pinout for MosaicG5 T
 
-| Pin #	|Signal     |
-|-------|-----------|
-| 2	|MAIN RF signal |
-| 7	|nRST_IN        |
-| 9	|UART COM1 Rx   |
-| 10	|UART COM1 Tx  |
-| 12	|USB D+        |
-| 13	|USB D-        |
-| 14	|USB VBUS      |
-| 54	|VANT          |
-| 53	|GPIO2         |
-| 52	|GPIO1         |
-| 51	|VREF_O        |
-| 50	|VREF_I        |
-| 48	|REF_I         |
-| 47	|REF_O         |
-| 43	|PPS2          |
-| 42	|PPS1          |
-| 39	|EventA        |
-| 31	|I2C SDA       |
-| 30	|I2C SCL       |
          
 ### M.2 Edge connector Pin Functions
 | Pin NUMBER | Signal Name | I/O Type | Voltage | Signal Description |
