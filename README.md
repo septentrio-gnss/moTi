@@ -27,7 +27,7 @@ A Time Card is a PCle card that is designed to plug into a server and turns into
 
 Originally it was developed by Meta and released though the Open Computer Project
 
-More information about the Timecard on this [link](https://fr.scribd.com/document/803083407/M-2-Sync-Module-OCP-Base-Specification-1-1-1) or [Github](https://github.com/Time-Appliances-Project/Time-Card?tab=readme-ov-file) 
+More information about the Time Card on this [link](https://fr.scribd.com/document/803083407/M-2-Sync-Module-OCP-Base-Specification-1-1-1) or [Github](https://github.com/Time-Appliances-Project/Time-Card?tab=readme-ov-file) 
 
 ## What is a mosaic-G5 T?
 [Septentrio mosaic-G5 T](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-g5-t) is a compact, low-power GNSS timing receiver module with multi-band, multi-frequency capability. Designed for critical infrastructure and other applications where resilient and precise timing is essential, it ensures maximum security and uptime. It tracks all Global Navigation Satellite System (GNSS) constellations and supports both current and future signals. 
@@ -147,71 +147,34 @@ These are normal steps to get the Time Card recognized by Linux.
 * KiCad Project files
 * Schematics PDF 
 * BOM (Bill Of Materials)
-#### Ordering mosaic
+#### Ordering Mosaic
+If you need to order a Mosaic-G5 T please contact [Septentrio](#Who is Septemtrio?)
 
 <img src="/pictures/block%20diagram.png" width="80%">
 
 The above block diagram is showing the overview communication between the antenna, receiver and M.2 edge connector. 
 
 ### Board connections and indicators
+  ![connect](/pictures/connections.png)
 
-![connect](/pictures/connections.png)
-These Pins are mandatory so they should be exposed to the Time Card.
+  
+| interface signals |I/O Type | Voltage | Signal Description |
+|-------------------|---------|---------|--------------------|
+| Power             | power   |  3.3V   |3.3 V Supply pin.   |
+| UART              |   I&O   |    3.3V | Universal Asynchronous Receiver Transmitter, RX & TX|
+| LED D1            |   O     | 3.3V    |Power Supply indicator|
+| PPS Out 1         |   O     | 3.3v    |Pulse-per-second signal out#1.
+| PPS Out 2         |   O     | 3.3v    |Pulse-per-second signal out#2.
+| Event 1 (PPS IN)  |   I     |   3.3V  |Pulse-per-second reference signal input. If not used, connect to ground on Platforms.|
 
-| Mandatory interface signals  |
-|-------------------|
-|Power 3.3V         |
-| USB 2.0           |
-| UART              |
-| LED1              |
-| RESET             |
-| 1 Hz PPS Out      |
-
-**USB 2.0** pins USB_D+ and USB_D- 
-
-When the module is inserted into a card that supports USB on its edge connector, the USB interface works just like it would on any other device. It is used for data, configuration, and control. It carries data such as , Time of Day (ToD) for the GNSS, diagnostic messages and firmware updates channels. The Time card will act as the USB host.
-
-**UART** (Universal Asynchronous Receiver Transmitter)
-This is a standard serial port using COM1, TX, COM1 and RX pins.
-
-**LED#1** provides real time status 
-
-**PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card Clocking system.
-
-| Optional data interfaces signals |
-|----------------------------------|
-| PCIe                             |
-| SGMII/USB3.0                     |
-| I2C Controller interface         |
-                               
-
-| Optional Sync interface signals |
-|---|
-| Secondary 1PPS Out |
-| 1PPS In |
-| 10 MHz clock Out |
-| 10 MHz clock in |
-
-This LED indicates if the Module is ON/OFF
-![alt](/pictures/LED2+.png)
-
-##### Antenna connector
-![alt](/pictures/antenna.PNG)
-
-This connector is a U.FL (UMCC) Connector receptacle, Male PIn 50 Ohms 
-
-#### Connection with the Timecard
-
-## Technical documentation
-
-#### Pinout for M.2 Connector
+#### Pinout for M.2 Key B Connector
 
 ![alt](/pictures/M.2%20connector.PNG)
 
 | Pin # |Signal            |
 |-------|------------------|
-| 7	 |USB D+               |
-| 9	 |USB D-               |
+| 7	    |USB D+            |
+| 9	    |USB D-            |
 | 23	|10MHz clock input |
 | 67	|nRST_IN           |
 | 2, 4	|VBAT              |
@@ -227,84 +190,23 @@ This connector is a U.FL (UMCC) Connector receptacle, Male PIn 50 Ohms
 | GND	|GND               |
 
 
-         
-### M.2 Edge connector Pin Functions
-| Pin NUMBER | Signal Name | I/O Type | Voltage | Signal Description |
-|---|---|---|---|---|
-| 1 | CONFIG_3 | OD | - | N/C on the Module, Defines Module type and indicates whether a Module is present, connect weak pull-up on Platforms. If not used, connect to the ground. |
-| 2 | 3.3V / VBAT | Power | - | 3.3V battery Supply pin, with a voltage tolerance of 3.134V to 4.4V. |
-| 3 | GND | Power | - | Return current path. |
-| 4 | 3.3V / VBAT | Power | - | 3.3V battery Supply pin, with a voltage tolerance of 3.134V to 4.4V. |
-| 5 | GND | Power | - | Return current path |
-| 6 | CARD_POWER_ | I, PU | 3.3V | Active low Module Power turn off signal, if not used, connect to 1K pull-up on Platforms. |
-| 7 | USB_SER_DP | I/O | - | USB2.0 Data, Plus |
-| 8 | W_DISABLE1# | I | - | Active low, turn off radio operation. If not used, keep floating on Platforms. |
-| 9 | USB_SER_DM | I/O | - | USB2.0 Data, Minus |
-| 10 | LED#1/Activity | OD | 3.3V | LED#1 Status indicator. Open drain, active low signal. |
-| 11 | GND | Power | - | Return current path. |
-| 12 | KEY-B | - | - | - |
-| 13 | KEY-B | - | - | - |
-| 14 | KEY-B | - | - | - |
-| 15 | KEY-B | - | - | - |
-| 16 | KEY-B | - | - | - |
-| 17 | KEY-B | - | - | - |
-| 18 | KEY-B | - | - | - |
-| 19 | KEY-B | - | - | - |
-| 20 | PPS_OUT2 | O | 3.3V | Pulse-per-second signal out#2. |
-| 21 | CONFIG_0 | OD | - | N/C on the Module, Defines Module type as well as an indication of whether a Module is present or not, connect weak pull-up on Platforms. If not used, connect to the ground. |
-| 22 | Module_Ref_CLK_ | I,PU | 3.3V | Module reference clock selection: Low - the Module will use his local oscillator. High - the Module will use the CLK_IN signal (pin #23). |
-| 23 | CLK_IN | I | 3.3V | 10MHz reference clock input. If not used, connect to the ground |
-| 24 | PPS_IN | I | 3.3V | Pulse-per-second reference signal input. If not used, connect to ground on Platforms. |
-| 25 | NC | - | - | Not to be used, keep floating on platform |
-| 26 | MSCL | I/O | 3.3V | I2C master, clock out signal, connect to 4.7K pull-up on Platforms. |
-| 27 | GND | Power | - | Return path |
-| 28 | LED#2/CLK_In_Stat | O | 3.3V | LED#2 Status indicator. Input clock status (Optional): Low - Module fails to lock on the input clock. High - Module is locked on the input clock. |
-| 29 | SGMII_TX_n/USB3.1_Tx_ | O, LVDS | - | GBE Ethernet, SGMII, or USB3.1 TX Minus, platform receiver differential signal pair. |
-| 30 | NC | - | - | Not used, keep floating on Platforms. |
-| 31 | SGMII_TX_p/USB3.1_Tx_ | O, LVDS | - | GBE Ethernet, SGMII, or USB3.1 TX Plus, platform receiver differential signal pair. |
-| 32 | NC | - | - | Not used, keep floating on Platforms. |
-| 33 | GND | Power | - | Return current path. |
-| 34 | NC | - | - | Not used, keep floating on Platforms. |
-| 35 | SGMII_RX_n/USB3.1_Rx_ | I, LVDS | - | GBE Ethernet, SGMII, or USB3.1 RX Minus, platform transmitter differential signal pair. |
-| 36 | NC | - | - | Not used, keep floating on Platforms. |
-| 37 | SGMII_RX_p/USB3.1_Rx_p | I, LVDS | - | GBE Ethernet, SGMII, or USB3.1 RX Plus, platform transmitter  differential signal pair. |
-| 38 | NC | - | - | Not used, keep floating on Platforms. |
-| 39 | GND | Power | - | Return current path. |
-| 40 | SMB_CLK | I/O | 3.3V | I2C slave clock input needs to connect to 4.7K pull-up on Platforms. |
-| 41 | PETn0 | O, LVDS | - | PCIe Lane 0 Tx, Minus. |
-| 42 | SMB_DATA | I/O | 3.3V | I2C slave data, need to connect to 4.7K pull-up on Platforms. |
-| 43 | PETp0 | O, LVDS | - | PCIe Lane 0 Tx, Plus. |
-| 44 | IRQ | O | 3.3V | Active low, Module interrupt indication. |
-| 45 | GND | Power | - | Return current path. |
-| 46 | PPS_OUT1 | O | 3.3V | Pulse-per-second signal out#1. |
-| 47 | PERn0 | I, LVDS | - | PCIe Lane 0 Rx Minus. |
-| 48 | CLK_OUT | O | 3.3V | 10MHz output clock. |
-| 49 | PERp0 | I, LVDS | - | PCIe Lane 0 Rx Plus. |
-| 50 | PERST# | I | 1.8V | PCIe Reset, function reset to the card as defined by the PCIe Mini CEM specification. If not used, connect to weak pull-up on Platforms. PCIe Lane 0 Rx Plus. |
-| 51 | GND | Power | - | Return current path. |
-| 52 | CLKREQ# | I/O, OD | 1.8V | Clock Request, a reference clock request signal as defined by the PCIe Mini CEM specification, active Low. |
-| 53 | REFCLKn | I, LVDS | - | PCIe Reference Clock signals (100 MHz), Minus. |
-| 54 | PEWake# | I/O | 1.8V | PCIe PME Wake , Open Drain, pull up on platform. Active Low. |
-| 55 | REFCLKp | I, LVDS | - | PCIe Reference Clock signals (100 MHz), Plus. |
-| 56 | NC | - | - | Not used, keep floating on Platforms. |
-| 57 | GND | Power | - | Return current path |
-| 58 | NC | - | - | Not used, keep floating on Platforms. |
-| 59 | NC | - | - | Not used, keep floating on Platforms. |
-| 60 | MSDA | I/O | 3.3V | I2C master, DATA, connects to 4.7K pull-up on Platforms. |
-| 61 | NC | - | - | Not used, keep floating. |
-| 62 | UART_ | I | 3.3V | Universal Asynchronous Receiver Transmitter, RX. |
-| 63 | NC | P | - | - |
-| 64 | UART_ | O | 3.3V | Universal Asynchronous Receiver Transmitter, TX. |
-| 65 | NC | - | - | Not used, keep floating on Platforms. |
-| 66 | NC | - | - | Not used, keep floating on Platforms. |
-| 67 | RESET# | I, PD | 3.3V | Active Low, Module Power-On reset signal, if not used, connect to 1K pull-up on Platforms. |
-| 68 | SUSCLK | I | 3.3V | 32.768 kHz input clock, enable critical keep alive circuitry during platform normal and suspend modes. If not used, connect to weak pull-up on Platforms. |
-| 69 | Config_ | OD | - | Grounded on the Module, Defines Module type and indication of whether a Module is present, connect weak pull-up on Platforms. If not used, connect to the ground. |
-| 70 | 3.3V | Power | - | 3.3 V Supply pin. |
-| 71 | GND | Power | - | Return current path. |
-| 72 | 3.3V | Power | - | 3.3 V Supply pin. |
-| 73 | VIO_CFG | O | - | Grounded on the Module, as the Module supports 3.3V on the IO signals, connect weak pull-up on Platforms. |
-| 74 | 3.3V | Power | - | 3.3 V Supply pin. |
-| 75 | CONFIG_ | OD | - | N/C on the Module, Defines Module type as well as indication of  whether a Module  is present or not, connect weak pull-up onPlatforms. If not used, connect to the ground. |
+**USB 2.0** pins USB_D+ and USB_D- 
+When the module is inserted into a card that supports USB pins on its edge connector, the USB interface works just like it would on any other device. It is used for data, configuration, and control. It carries data such as , Time of Day (ToD) for the GNSS, diagnostic messages and firmware updates channels. The Time Card will act as the USB host.
+
+**UART** (Universal Asynchronous Receiver Transmitter)
+This is a standard serial port using TX and RX pins.
+
+**LED D1** provides real time status 
+
+**PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card Clocking system. 
+
+This LED indicates if the Module is ON/OFF
+![alt](/pictures/LED2+.png)
+
+##### Antenna connector
+![alt](/pictures/antenna.PNG)
+
+This connector is a U.FL (UMCC) Connector receptacle, Male PIn 50 Ohms        
+
 
 
