@@ -162,10 +162,12 @@ The above block diagram is showing the overview communication between the antenn
 |-------------------|---------|---------|--------------------|
 | Power             | power   |  3.3V   |3.3 V Supply pin.   |
 | UART              |   I&O   |    3.3V | Universal Asynchronous Receiver Transmitter, RX & TX|
-| LED D1            |   O     | 3.3V    |Power Supply indicator|
 | PPS Out 1         |   O     | 3.3v    |Pulse-per-second signal out#1.
 | PPS Out 2         |   O     | 3.3v    |Pulse-per-second signal out#2.
 | Event 1 (PPS IN)  |   I     |   3.3V  |Pulse-per-second reference signal input. If not used, connect to ground on Platforms.|
+| CLK_IN            |   I     | 3.3V    |10MHz reference clock input. If not used, connect to the ground|
+| CLK_OUT           |   O     | 3.3V    |10MHz output clock.   |
+| LED D1            |   O     | 3.3V    |Power Supply indicator|
 
 #### Pinout for M.2 Key B Connector
 
@@ -196,9 +198,9 @@ When the module is inserted into a card that supports USB pins on its edge conne
 **UART** (Universal Asynchronous Receiver Transmitter)
 This is a standard serial port using TX and RX pins.
 
-**LED D1** provides real time status 
-
 **PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card Clocking system. 
+
+**Event 1 (PPS IN)** This pin detects a pulse from an external device and records the exact GNSS time when the pulse happned. It is connected to the eventB pin of the Mosaic-G5 T
 
 This LED indicates if the Module is ON/OFF
 ![alt](/pictures/LED2+.png)
