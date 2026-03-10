@@ -202,8 +202,9 @@ This is a standard serial port using TX and RX pins.
 
 **Event 1 (PPS IN)** This pin detects a pulse from an external device and records the exact GNSS time when the pulse happned. It is connected to the eventB pin of the Mosaic-G5 T
 
-This LED indicates if the Module is ON/OFF
+
 ![alt](/pictures/LED2+.png)
+This LED indicates if the Module is ON/OFF
 
 ##### Antenna connector
 ![alt](/pictures/antenna.PNG)
