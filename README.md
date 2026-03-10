@@ -27,7 +27,7 @@ A Time Card is a PCle card that is designed to plug into a server and turns into
 
 Originally it was developed by Meta and released though the Open Computer Project
 
-More information about the Timecard on this [link](https://github.com/Time-Appliances-Project/Time-Card?tab=readme-ov-file) 
+More information about the Timecard on this [link](https://fr.scribd.com/document/803083407/M-2-Sync-Module-OCP-Base-Specification-1-1-1)[or Github](https://github.com/Time-Appliances-Project/Time-Card?tab=readme-ov-file) 
 
 ## What is a mosaic-G5 T?
 [Septentrio mosaic-G5 T](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-g5-t) is a compact, low-power GNSS timing receiver module with multi-band, multi-frequency capability. Designed for critical infrastructure and other applications where resilient and precise timing is essential, it ensures maximum security and uptime. It tracks all Global Navigation Satellite System (GNSS) constellations and supports both current and future signals. 
