@@ -1,0 +1,389 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "015afce1-fa3e-4384-aeb7-ef23123c7389",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classic",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.0,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "C:\\PBAs\\Stargate\\M2_mosaicG5\\Output",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "",
+      "id": "32910b11-55ff-40cd-87c2-2971329377ea",
+      "settings": {
+        "bom_format_preset_name": "CSV",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": false,
+        "field_delimiter": ",",
+        "fields_group_by": [],
+        "fields_labels": [
+          "Reference",
+          "Value",
+          "Footprint",
+          "Datasheet",
+          "Description",
+          "Qty",
+          "#",
+          "Arrow Part Number",
+          "Arrow Price/Stock",
+          "DigiKey PN",
+          "Height",
+          "Manufacturer",
+          "Manufacturer PN",
+          "Manufacturer_Name",
+          "Manufacturer_PN",
+          "Manufacturer_Part_Number",
+          "Mouser Part Number",
+          "Mouser Price/Stock",
+          "Sim.Pins"
+        ],
+        "fields_ordered": [
+          "Reference",
+          "Value",
+          "__Footprint",
+          "__Datasheet",
+          "Description",
+          "${QUANTITY}",
+          "__${ITEM_NUMBER}",
+          "__Arrow Part Number",
+          "__Arrow Price/Stock",
+          "__DigiKey PN",
+          "__Height",
+          "__Manufacturer",
+          "__Manufacturer PN",
+          "Manufacturer_Name",
+          "__Manufacturer_PN",
+          "Manufacturer_Part_Number",
+          "__Mouser Part Number",
+          "__Mouser Price/Stock",
+          "__Sim.Pins"
+        ],
+        "filter_string": "",
+        "include_excluded_from_bom": false,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "M2_mosaicG5.csv",
+        "ref_delimiter": ",",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "Reference",
+        "string_delimiter": "\""
+      },
+      "type": "sch_export_bom"
+    },
+    {
+      "description": "",
+      "id": "df810a69-3f81-4f2d-a73f-694eb915f604",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": true,
+        "export_silkscreen": false,
+        "export_soldermask": false,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": true,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": "M2_mosaicG5.step",
+        "overwrite": false,
+        "subst_models": true,
+        "use_defined_origin": false,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "use_pcb_center_origin": true,
+        "user_origin.x": 94.867228,
+        "user_origin.y": 121.021054,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "3e98ac85-412f-4650-a359-53a9190d5cf6",
+      "settings": {
+        "compression": "tgz",
+        "description": "",
+        "drawing_sheet": "",
+        "output_filename": "ext-0060-1001-aa01.tgz",
+        "precision": 2,
+        "units": "mm"
+      },
+      "type": "pcb_export_odb"
+    },
+    {
+      "description": "",
+      "id": "9797a73c-d342-43ac-b466-6865fbc7f885",
+      "settings": {
+        "black_and_white": true,
+        "create_gerber_job_file": true,
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "hide_dnp_footprints_on_fab_layers": false,
+        "include_netlist_attributes": true,
+        "layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.Paste",
+          "B.Fab",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
+          "F.Cu",
+          "F.Mask",
+          "F.Paste",
+          "F.Fab",
+          "Dwgs.User",
+          "Cmts.User",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [
+          "Edge.Cuts"
+        ],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "",
+        "plot_drawing_sheet": true,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 5,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false,
+        "use_protel_file_extension": true,
+        "use_x2_format": true
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "4cee373c-fcef-439e-acf9-3a1cafe6a930",
+      "settings": {
+        "description": "",
+        "drill_origin": "abs",
+        "excellon.combine_pth_npth": true,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": false,
+        "format": "excellon",
+        "generate_map": true,
+        "gerber_precision": 5,
+        "map_format": "gerberx2",
+        "output_dir": "",
+        "units": "mm",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
+    },
+    {
+      "description": "",
+      "id": "738ec316-6554-4f1f-b9a2-244ddd940453",
+      "settings": {
+        "description": "",
+        "exclude_dnp": true,
+        "exclude_footprints_with_th": false,
+        "format": "ascii",
+        "gerber_board_edge": true,
+        "negate_bottom_x": false,
+        "output_filename": "CPL",
+        "side": "both",
+        "single_file": true,
+        "smd_only": false,
+        "units": "mm",
+        "use_drill_place_file_origin": true
+      },
+      "type": "pcb_export_pos"
+    },
+    {
+      "description": "",
+      "id": "c695cda9-ded9-465e-8e92-e581ec210257",
+      "settings": {
+        "back_fp_property_popups": true,
+        "black_and_white": true,
+        "color_theme": "",
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "front_fp_property_popups": true,
+        "hide_dnp_footprints_on_fab_layers": false,
+        "layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.Paste",
+          "B.CrtYd",
+          "B.Fab",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
+          "F.Cu",
+          "F.Mask",
+          "F.Paste",
+          "F.CrtYd",
+          "F.Fab",
+          "Dwgs.User",
+          "Cmts.User",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [
+          "Edge.Cuts"
+        ],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "",
+        "pdf_gen_mode": "one-page-per-layer-one-file",
+        "pdf_metadata": true,
+        "plot_drawing_sheet": true,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "single_document": true,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false
+      },
+      "type": "pcb_export_pdf"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "c841cd42-6799-4bfa-b9c2-7fbbed202015",
+      "only": [
+        "015afce1-fa3e-4384-aeb7-ef23123c7389",
+        "32910b11-55ff-40cd-87c2-2971329377ea"
+      ],
+      "settings": {
+        "output_path": "C:\\PBAs\\EXT-0060\\Stargate\\M2_mosaicG5\\Output\\"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "",
+      "id": "c64f7288-3965-4a4b-b4af-bc793b2a7d93",
+      "only": [
+        "df810a69-3f81-4f2d-a73f-694eb915f604"
+      ],
+      "settings": {
+        "output_path": "C:\\PBAs\\EXT-0060\\Stargate\\M2_mosaicG5\\Output\\CAD\\"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "",
+      "id": "bd7c11dd-7294-4bae-b48c-fb6c0bb56240",
+      "only": [
+        "3e98ac85-412f-4650-a359-53a9190d5cf6",
+        "c695cda9-ded9-465e-8e92-e581ec210257"
+      ],
+      "settings": {
+        "output_path": "C:\\PBAs\\EXT-0060\\Stargate\\M2_mosaicG5\\Output\\Manufacturing\\"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "",
+      "id": "d4b74fd4-4557-4e04-a3e6-8cc01cb179c2",
+      "only": [
+        "9797a73c-d342-43ac-b466-6865fbc7f885",
+        "4cee373c-fcef-439e-acf9-3a1cafe6a930",
+        "738ec316-6554-4f1f-b9a2-244ddd940453"
+      ],
+      "settings": {
+        "output_path": "C:\\PBAs\\EXT-0060\\Stargate\\M2_mosaicG5\\Output\\Manufacturing\\Artwork\\"
+      },
+      "type": "folder"
+    }
+  ]
+}

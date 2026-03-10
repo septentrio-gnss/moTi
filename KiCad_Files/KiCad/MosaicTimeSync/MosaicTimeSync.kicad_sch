@@ -5,10 +5,13 @@
 	(uuid "a9fd92c2-3c56-4e0a-a5ac-af47c0a80946")
 	(paper "A3")
 	(title_block
-		(title "M2_mosaic G5-T_Module ")
+		(title "MosaicTimeSync")
 		(date "2025-09-02")
 		(rev "01")
 		(company "Septentrio")
+		(comment 2 "under the Fundamental Elements Grant EUSPA/GRANT/02/2024")
+		(comment 3 "co-funded by the European Union Agency for the Space Programme ")
+		(comment 4 "MosaicTimeSync project has been documented by Septentrio")
 	)
 	(lib_symbols
 		(symbol "PCB_label:EXT-0060-1001-AA01"
