@@ -1,5 +1,6 @@
 # MosaicTimeSync
 Maintainer: [(Septentrio gnss github user)](githubuser@septentrio.com)
+
 License:[OCP CLA](https://www.opencompute.org/documents/ocp-cla)
 
 This project is co-funded by the European Union Agency for the Space Programme under the Fundamental Elements Grant EUSPA/GRANT/02/2024
