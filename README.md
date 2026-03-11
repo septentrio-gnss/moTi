@@ -17,7 +17,9 @@ This project is co-funded by the European Union Agency for the Space Programme u
 
 
 ## What is the MosaicTimeSync?
-![alt](/pictures/20260216_161412%20-%20Copy.png)
+
+<img src="/pictures/20260216_161412%20EDIT.png" width="80%">
+
 
 The MosaicTimeSync is a timing module that provides accurate and reliable asynchronisation signals for time-sensitive systems. It is based on a standardised M.2 form factor that allows to be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
 This board receives precise timing information from Septentrio’s Moaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards, and other hardware in data centres and communication systems.
