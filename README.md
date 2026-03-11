@@ -37,9 +37,6 @@ More information about the Time Card on this [link](https://fr.scribd.com/docume
 ## What is a mosaic-G5 T?
 [Septentrio mosaic-G5 T](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-g5-t) is a compact, low-power GNSS timing receiver module with multi-band, multi-frequency capability. Designed for critical infrastructure and other applications where resilient and precise timing is essential, it ensures maximum security and uptime. It tracks all Global Navigation Satellite System (GNSS) constellations and supports both current and future signals. 
 
-#### Other mosaic versions
-You can use other [mosaic modules](https://www.septentrio.com/en/products/gnss-receivers?f%5B0%5D=type%3A604),  but you need to pay attention to the functions and pins that could be exposed, then modify the design for your own project. 
-
 ## Who is Septentrio?
 ![logo](/pictures/Septentrio_logo.png)
 
