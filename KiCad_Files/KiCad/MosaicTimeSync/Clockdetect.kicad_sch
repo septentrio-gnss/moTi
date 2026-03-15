@@ -9,8 +9,9 @@
 		(date "2025-09-02")
 		(rev "01")
 		(company "Septentrio")
-		(comment 2 "under the Fundamental Elements Grant EUSPA/GRANT/02/2024")
-		(comment 3 "co-funded by the European Union Agency for the Space Programme")
+		(comment 1 "Grant EUSPA/GRANT/02/2024")
+		(comment 2 "Programme under the Fundamental Elements ")
+		(comment 3 "co-funded by the European Union Agency for the Space ")
 		(comment 4 "MosaicTimeSync project has been documented by Septentrio")
 	)
 	(lib_symbols
@@ -1893,6 +1894,94 @@
 		)
 		(uuid "f6647dd9-02a8-4e50-b896-e9061cd56e14")
 	)
+	(image
+		(at 388.62 261.62)
+		(scale 1.07906)
+		(uuid "05be7b85-6360-46ed-abd2-326ed70578bb")
+		(data "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"
+			"T3xQAAAAAElFTkSuQmCC"
+		)
+	)
 	(table
 		(column_count 2)
 		(border
@@ -2120,6 +2209,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -2142,6 +2232,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -2163,6 +2254,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -2184,6 +2276,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 	)
@@ -2205,6 +2298,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -2227,6 +2321,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 	)
@@ -2240,7 +2335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15a187d0-c4b7-4796-9026-bae67136e4be")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR?"
 			(at 114.3 45.72 0)
 			(effects
 				(font
@@ -2294,6 +2389,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2305,7 +2406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ad8957b-a83d-40fe-92b1-100af5f7151e")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 298.196 174.244 0)
 			(effects
 				(font
@@ -2422,6 +2523,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2433,7 +2540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47083590-a0dc-4b4a-b1a2-e62865900d1a")
-		(property "Reference" "R11"
+		(property "Reference" "R?"
 			(at 267.97 180.848 90)
 			(effects
 				(font
@@ -2507,6 +2614,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2519,7 +2632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c554e5e-f953-492d-84e5-675c0cee1a99")
-		(property "Reference" "C9"
+		(property "Reference" "C?"
 			(at 265.43 54.61 90)
 			(effects
 				(font
@@ -2620,6 +2733,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2631,7 +2750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "530bf8dc-ff7f-4d5f-80d4-5e6fc4345d2a")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 104.14 62.23 90)
 			(effects
 				(font
@@ -2732,6 +2851,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2744,7 +2869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e082836-ea77-4f34-a323-2a8f28a38ae0")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR?"
 			(at 288.29 195.58 0)
 			(effects
 				(font
@@ -2798,6 +2923,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2809,7 +2940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6edc3fb2-5d11-49d8-8a33-39af6d71ba13")
-		(property "Reference" "R10"
+		(property "Reference" "R?"
 			(at 252.73 175.768 90)
 			(effects
 				(font
@@ -2883,6 +3014,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2895,7 +3032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72890cca-139c-4cb6-b134-d9fe74b671c7")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR?"
 			(at 288.29 168.91 0)
 			(effects
 				(font
@@ -2949,6 +3086,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2960,7 +3103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7507bef2-f368-4dd5-9e42-386d5fa41d6f")
-		(property "Reference" "R9"
+		(property "Reference" "R?"
 			(at 252.73 170.688 90)
 			(effects
 				(font
@@ -3034,6 +3177,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3045,7 +3194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7587425d-185a-4987-b544-a4b09894aec0")
-		(property "Reference" "C6"
+		(property "Reference" "C?"
 			(at 255.524 181.61 90)
 			(effects
 				(font
@@ -3119,6 +3268,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3131,7 +3286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82ee53ba-0839-475f-8eb9-cae0e9669b2e")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR?"
 			(at 105.41 224.79 0)
 			(effects
 				(font
@@ -3185,6 +3340,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3197,7 +3358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ce10764-f017-4714-be59-f369748f90a1")
-		(property "Reference" "Q1"
+		(property "Reference" "Q?"
 			(at 87.63 214.63 90)
 			(effects
 				(font
@@ -3328,6 +3489,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3340,7 +3507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a4f00a5-1358-4799-b4a6-efd87579146b")
-		(property "Reference" "R3"
+		(property "Reference" "R?"
 			(at 116.84 57.1499 0)
 			(effects
 				(font
@@ -3443,6 +3610,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3455,7 +3628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cfae4c8-2ad8-481c-aa34-356dd1d389b1")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR?"
 			(at 246.38 191.77 0)
 			(effects
 				(font
@@ -3509,6 +3682,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3521,7 +3700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eeac3a0-bc09-4b2d-8920-96838df29679")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR?"
 			(at 82.55 132.08 0)
 			(effects
 				(font
@@ -3576,6 +3755,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3588,7 +3773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b674d831-b496-4e74-9570-026184b4b6ca")
-		(property "Reference" "U5"
+		(property "Reference" "U?"
 			(at 104.14 121.92 0)
 			(effects
 				(font
@@ -3735,6 +3920,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3747,7 +3938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c97d5395-accf-4631-bdde-9de92f306f0c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR?"
 			(at 69.85 224.79 0)
 			(effects
 				(font
@@ -3801,6 +3992,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3813,7 +4010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce705194-2dfa-4818-b2c2-ad6663f68dc9")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR?"
 			(at 123.19 132.08 0)
 			(effects
 				(font
@@ -3868,6 +4065,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3880,7 +4083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c1eafa-d0c7-4ae5-b043-fd0796266897")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR?"
 			(at 246.38 175.26 0)
 			(effects
 				(font
@@ -3934,6 +4137,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3946,7 +4155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc373ee1-06d5-4196-b5b1-be4ae0915431")
-		(property "Reference" "C8"
+		(property "Reference" "C?"
 			(at 265.43 71.12 90)
 			(effects
 				(font
@@ -4047,6 +4256,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4059,7 +4274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdd36b13-4cf8-4c9f-ba33-f576572d03ad")
-		(property "Reference" "C7"
+		(property "Reference" "C?"
 			(at 88.9 57.15 90)
 			(effects
 				(font
@@ -4160,6 +4375,18 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
