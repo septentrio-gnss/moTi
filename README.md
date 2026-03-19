@@ -1,9 +1,11 @@
 # MosaicTimeSync
-Maintainer: [(Septentrio gnss github user)](githubuser@septentrio.com)
-
-License:[OCP CLA](https://www.opencompute.org/documents/ocp-cla)
+| Author|  [laekaz](https://github.com/laekaz)|
+|------|-------|
+|Maintainer| [(Septentrio gnss github user)](githubuser@septentrio.com)|
+|License|[OCP CLA](https://www.opencompute.org/documents/ocp-cla)|
 
 This project is co-funded by the European Union Agency for the Space Programme under the Fundamental Elements Grant EUSPA/GRANT/02/2024
+
 
 ## Table of Content
 * [What is the MosaicTimeSync?](What-is-the-MosaicTimeSync?)
@@ -15,7 +17,7 @@ This project is co-funded by the European Union Agency for the Space Programme u
 * [Design documentation](#Design-documentation)
 * [Hardware files](#Hardware-files)
 
-
+## Introduction to MosaicTimeSync
 ## What is the MosaicTimeSync?
 
 <img src="/pictures/20260216_161412%20EDIT.png" width="80%">
@@ -24,6 +26,10 @@ This project is co-funded by the European Union Agency for the Space Programme u
 The MosaicTimeSync is a timing module that provides accurate and reliable asynchronisation signals for time-sensitive systems. It is based on a standardised M.2 form factor that allows to be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
 This board receives precise timing information from Septentrio’s Moaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards, and other hardware in data centres and communication systems.
 
+#### Can I buy it?
+Yes, you can buy this board from ANavS
+
+Website:
 
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
@@ -38,13 +44,27 @@ More information about the Time Card on this [link](https://fr.scribd.com/docume
 [Septentrio mosaic-G5 T](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-g5-t) is a compact, low-power GNSS timing receiver module with multi-band, multi-frequency capability. Designed for critical infrastructure and other applications where resilient and precise timing is essential, it ensures maximum security and uptime. It tracks all Global Navigation Satellite System (GNSS) constellations and supports both current and future signals. 
 
 ## Who is Septentrio?
-![logo](/pictures/Septentrio_logo.png)
+![logo](/pictures/Septentrio_Hex_logo.png.png)
 
 Septentrio is a top company that designs, manufactures and sells high precision and multi-frequency GPS/GNSS receivers for demanding applications. Septentrio products are used in different industries including automotive, marine, construction, rail, machine control, logistics, precision agriculture, geographic information systems (GIS), Unmanned aerial vehicles (UAVs), survey, mapping and scientific. Septentrio’s receivers constantly deliver accurate and precise GNSS positioning scalable to centimetre-level and designed to perform perfectly in challenging environments. 
 
 Septentrio's technology offers high accuracy and reliability thanks to GNSS + algorithms as well as [Advanced interference Monitoring and mitigation (AIM+)](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-anti-jamming-protection) This protects your application against jamming (RF interference) and spoofing (malicious attacks).
 
 For more information about Septentrio products go to [**https://www.septentrio.com/**](https://web.septentrio.com/GH-SSN-home).
+
+### Why open source
+
+
+## Disclaimer
+This project is offered as-is. The main interfaces have been tested, but the design has not been fully checked or approved by the author or Septentrio. You are responsible for how you use it in your own projects. For guidance on working with Septentrio’s GNSS mosaic modules, we suggest reaching out to Septentrio directly.
+
+Support website: https://www.septentrio.com/en/support
+
+### Deliverables
+This Open Source contains the following files for designers, producers and integrators around Septentrio's mosaic modules.
+|Files         |description   |
+|--------------|--------------|
+
 
 ## User documentation
 
@@ -142,7 +162,6 @@ This means your server can act as a time source for the whole infrastructure.
 
 These are normal steps to get the Time Card recognized by Linux.
 
-
 ## Design documentation
 
 ### Hardware files
@@ -150,7 +169,7 @@ These are normal steps to get the Time Card recognized by Linux.
 * Schematics PDF 
 * BOM (Bill Of Materials)
 #### Ordering mosaic
-If you need to order a mosaic-G5 T please contact [Septentrio](#Who is Septemtrio?)
+If you need to order a mosaic-G5 T please contact [Septentrio](#Who is Septentrio?)
 
 <img src="/pictures/block%20diagram.png" width="80%">
 
