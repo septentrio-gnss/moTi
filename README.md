@@ -1,4 +1,4 @@
-# MosaicTimeSync
+# mosaicTimeSync
 | Author|  [laekaz](https://github.com/laekaz)|
 |------|-------|
 |Maintainer| [(Septentrio gnss github user)](githubuser@septentrio.com)|
@@ -9,7 +9,7 @@ This project is co-funded by the European Union Agency for the Space Programme u
 
 ## Table of Content
 * [Introduction](#introduction)
-* [What is the MosaicTimeSync?](#what-is-the-mosaictimesync)
+* [What is the mosaicTimeSync?](#what-is-the-mosaictimesync)
   * [Can I buy it?](#can-i-buy-it)
 * [What is a Time Card?](#what-is-a-time-card)
 * [What is a Mosaic-G5 T?](#what-is-a-mosaic-g5-t)
@@ -37,11 +37,11 @@ This project is co-funded by the European Union Agency for the Space Programme u
     * [LED D1](#led-d1)
     * [Antenna Connector](#antenna-connector)
 ## Introduction 
-## What is the MosaicTimeSync?
+## What is the mosaicTimeSync?
 
 <img src="/pictures/20260216_161412%20EDIT.png" width="80%">
 
-The MosaicTimeSync is a timing module that provides accurate and reliable synchronization signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
+The mosaicTimeSync is a timing module that provides accurate and reliable synchronization signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
 This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards (NICs), and other hardware in data centres and communication systems.
 
 #### Can I buy it?
@@ -52,7 +52,7 @@ Website:
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
 
-A Time Card is a PCIe card that is designed to plug into a server and turns provides precision time outputs such as PPS (Pulse Per Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocols like the NTP or PTP. The MosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
+A Time Card is a PCIe card that is designed to plug into a server and turns provides precision time outputs such as PPS (Pulse Per Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocols like the NTP or PTP. The mosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
 
 Originally, it was developed by Meta and released through the Open Computer Project
 
@@ -92,7 +92,7 @@ This open-source contains the following files for designers, producers and integ
 
 #### M.2 form factor
 
-The M.2 form factor provides a compact interface for expansion cards.The MosaicTimeSync board is M.2 Key B conector, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
+The M.2 form factor provides a compact interface for expansion cards.The mosaicTimeSync board is M.2 Key B conector, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
 
 <img src="/pictures/M.2 key B & M.png" width="35%">
 
