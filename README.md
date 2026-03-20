@@ -23,8 +23,8 @@ This project is co-funded by the European Union Agency for the Space Programme u
 <img src="/pictures/20260216_161412%20EDIT.png" width="80%">
 
 
-The MosaicTimeSync is a timing module that provides accurate and reliable asynchronisation signals for time-sensitive systems. It is based on a standardised M.2 form factor that allows to be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
-This board receives precise timing information from Septentrio’s Moaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards, and other hardware in data centres and communication systems.
+The MosaicTimeSync is a timing module that provides accurate and reliable asynchronization signals for time-sensitive systems. It is based on a standardised M.2 form factor that can to be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
+This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards, and other hardware in data centres and communication systems.
 
 #### Can I buy it?
 Yes, you can buy this board from 
@@ -34,9 +34,9 @@ Website:
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
 
-A Time Card is a PCle card that is designed to plug into a server and turns into a precision time outputs such as PPS (Pulse Perr Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocol like the NTP or PTP. The MosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
+A Time Card is a PCle card that is designed to plug into a server and turns into a precision time outputs such as PPS (Pulse Per Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocol like the NTP or PTP. The MosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
 
-Originally it was developed by Meta and released though the Open Computer Project
+Originally it was developed by Meta and released through the Open Computer Project
 
 More information about the Time Card on this [link](https://fr.scribd.com/document/803083407/M-2-Sync-Module-OCP-Base-Specification-1-1-1) or [Github](https://github.com/Time-Appliances-Project/Time-Card?tab=readme-ov-file) 
 
@@ -76,7 +76,7 @@ This Open Source contains the following files for designers, producers and integ
 
 The M.2 form factor provides a compact interface for expansion cards.The MosaicTimeSync board is Key B, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
 
-<img src="/pictures.png" width="35%">
+<img src="/pictures/M.2 key B & M.png" width="35%">
 
 
 ## User documentation
@@ -110,7 +110,7 @@ ls -l /sys/class/timecard/ocp0/
 
 This will show many devices including GNSS, PPS, PHC clock and atomic clock serial
 ##### Check the GNSS status (satellite time)
-Once Lunix has detected the Time Card:
+Once Linux has detected the Time Card:
 
 * GNSS time is usually on a serial port like `/dev/ttyS7` or simillar.
 * You can run `gpsd` or a tool like `cgps` to check the satellite status.
@@ -158,7 +158,7 @@ echo OUT: GNSS1 >> sma1
 ```
 
 ##### Use the PHC clock from Linux
-The PHC (Presition Hardware Clock) device exposed by the driver can be used to sync the Linux system clock
+The PHC (Precition Hardware Clock) device exposed by the driver can be used to sync the Linux system clock
 
 ##### When the card is installed and running
 Once everything is configured:
@@ -234,7 +234,7 @@ This is a standard serial port using TX and RX pins.
 
 **PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card Clocking system. 
 
-**Event 1 (PPS IN)** This pin detects a pulse from an external device and records the exact GNSS time when the pulse happned. It is connected to the eventB pin of the mosaic-G5 T
+**Event 1 (PPS IN)** This pin detects a pulse from an external device and records the exact GNSS time when the pulse happened. It is connected to the eventB pin of the mosaic-G5 T
 
 ##### LED D1
 ![alt](/pictures/LED2+.png)
