@@ -27,7 +27,7 @@ The MosaicTimeSync is a timing module that provides accurate and reliable asynch
 This board receives precise timing information from Septentrio’s Moaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards, and other hardware in data centres and communication systems.
 
 #### Can I buy it?
-Yes, you can buy this board from ANavS
+Yes, you can buy this board from 
 
 Website:
 
@@ -53,7 +53,7 @@ Septentrio's technology offers high accuracy and reliability thanks to GNSS + al
 For more information about Septentrio products go to [**https://www.septentrio.com/**](https://web.septentrio.com/GH-SSN-home).
 
 ### Why open source
-
+This board is open source to encourage collaboration, customization, and innovation. By making the design files publicly available, developers and engineers can study, modify, and adapt the hardware to fit their specific applications, reducing development time and cost. It also promotes transparency and avoids vendor lock-in, allowing users to fully understand and control the design.
 
 ## Disclaimer
 This project is offered as-is. The main interfaces have been tested, but the design has not been fully checked or approved by the author or Septentrio. You are responsible for how you use it in your own projects. For guidance on working with Septentrio’s GNSS mosaic modules, we suggest reaching out to Septentrio directly.
@@ -64,6 +64,19 @@ Support website: https://www.septentrio.com/en/support
 This Open Source contains the following files for designers, producers and integrators around Septentrio's mosaic modules.
 |Files         |description   |
 |--------------|--------------|
+|MosaicTimeSync.kicad_pro| KiCAD project|
+|MosaicTimeSync.kicad_sch|KiCAD schematic|
+|mosaic-G5.kicad_sch|KiCAD mosaic-G5 schematic sheet |
+|M2_Edge connector.kicad_sch|KiCAD M.2 Key B schematic sheet|
+|Clockdetect.kicad_sch|KiCAD clock schematic sheet|
+|MosaicTimeSync.kicad_pcb|KiCAD PCB layout|
+|MosaicTimeSync.pdf|schematic PDF|
+
+#### M.2 form factor
+
+The M.2 form factor provides a compact interface for expansion cards.The MosaicTimeSync board is Key B, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
+
+<img src="/pictures.png" width="35%">
 
 
 ## User documentation
