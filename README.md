@@ -8,23 +8,41 @@ This project is co-funded by the European Union Agency for the Space Programme u
 
 
 ## Table of Content
-* [What is the MosaicTimeSync?](What-is-the-MosaicTimeSync?)
-* [What is a Time Card?](#What-is-a-Time-Card?)
-* [What is a mosaic-G5 T?](#What-is-a-mosaicG5-T?)
-* [Who is Septemtrio?](#who-is-septentrio)
-* [User documentation](#User-documentation)
-    * [System SetUp](#System-SetUp)
-* [Design documentation](#Design-documentation)
-* [Hardware files](#Hardware-files)
-
-## Introduction to MosaicTimeSync
+* [Introduction](#introduction)
+* [What is the MosaicTimeSync?](#what-is-the-mosaictimesync)
+  * [Can I buy it?](#can-i-buy-it)
+* [What is a Time Card?](#what-is-a-time-card)
+* [What is a Mosaic-G5 T?](#what-is-a-mosaic-g5-t)
+* [Who is Septentrio?](#who-is-septentrio)
+  * [Why open-source](#why-open-source)
+* [Disclaimer](#disclaimer)
+* [Deliverables](#deliverables)
+  * [M.2 Form Factor](#m2-form-factor)
+* [User Documentation](#user-documentation)
+  * [System Setup](#system-setup)
+    * [Boot Linux](#boot-linux)
+    * [Check the GNSS Status (Satellite Time)](#check-the-gnss-status-satellite-time)
+    * [Output the PPS and Clock](#output-the-pps-and-clock)
+    * [Use the PHC Clock from Linux](#use-the-phc-clock-from-linux)
+    * [When the Card is Installed and Running](#when-the-card-is-installed-and-running)
+    * [If Something Goes Wrong](#if-something-goes-wrong)
+* [Design Documentation](#design-documentation)
+  * [Ordering Mosaic](#ordering-mosaic)
+  * [Board Connections and Indicators](#board-connections-and-indicators)
+    * [Pinout for M.2 Key B Connector](#pinout-for-m2-key-b-connector)
+    * [USB 2.0](#usb-20)
+    * [UART](#uart)
+    * [PPS Out](#pps-out)
+    * [Event 1 (PPS IN)](#event-1-pps-in)
+    * [LED D1](#led-d1)
+    * [Antenna Connector](#antenna-connector)
+## Introduction 
 ## What is the MosaicTimeSync?
 
 <img src="/pictures/20260216_161412%20EDIT.png" width="80%">
 
-
-The MosaicTimeSync is a timing module that provides accurate and reliable asynchronization signals for time-sensitive systems. It is based on a standardised M.2 form factor that can to be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
-This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards, and other hardware in data centres and communication systems.
+The MosaicTimeSync is a timing module that provides accurate and reliable synchronization signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
+This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards (NICs), and other hardware in data centres and communication systems.
 
 #### Can I buy it?
 Yes, you can buy this board from 
@@ -34,9 +52,9 @@ Website:
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
 
-A Time Card is a PCle card that is designed to plug into a server and turns into a precision time outputs such as PPS (Pulse Per Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocol like the NTP or PTP. The MosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
+A Time Card is a PCIe card that is designed to plug into a server and turns provides precision time outputs such as PPS (Pulse Per Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocols like the NTP or PTP. The MosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
 
-Originally it was developed by Meta and released through the Open Computer Project
+Originally, it was developed by Meta and released through the Open Computer Project
 
 More information about the Time Card on this [link](https://fr.scribd.com/document/803083407/M-2-Sync-Module-OCP-Base-Specification-1-1-1) or [Github](https://github.com/Time-Appliances-Project/Time-Card?tab=readme-ov-file) 
 
@@ -44,16 +62,16 @@ More information about the Time Card on this [link](https://fr.scribd.com/docume
 [Septentrio mosaic-G5 T](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-g5-t) is a compact, low-power GNSS timing receiver module with multi-band, multi-frequency capability. Designed for critical infrastructure and other applications where resilient and precise timing is essential, it ensures maximum security and uptime. It tracks all Global Navigation Satellite System (GNSS) constellations and supports both current and future signals. 
 
 ## Who is Septentrio?
-![logo](/pictures/Septentrio_Hex_logo.png.png)
+![logo](/pictures/Septentrio_Hex_logo.png)
 
-Septentrio is a top company that designs, manufactures and sells high precision and multi-frequency GPS/GNSS receivers for demanding applications. Septentrio products are used in different industries including automotive, marine, construction, rail, machine control, logistics, precision agriculture, geographic information systems (GIS), Unmanned aerial vehicles (UAVs), survey, mapping and scientific. Septentrio’s receivers constantly deliver accurate and precise GNSS positioning scalable to centimetre-level and designed to perform perfectly in challenging environments. 
+Septentrio is a leading company that designs, manufactures and sells high precision and multi-frequency GPS/GNSS receivers for demanding applications. Septentrio products are used in different industries including automotive, marine, construction, rail, machine control, logistics, precision agriculture, geographic information systems (GIS), Unmanned aerial vehicles (UAVs), surveying, mapping and scientific development. Septentrio’s receivers constantly deliver accurate and precise GNSS positioning scalable to centimetre-level and designed to perform perfectly in challenging environments. 
 
-Septentrio's technology offers high accuracy and reliability thanks to GNSS + algorithms as well as [Advanced interference Monitoring and mitigation (AIM+)](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-anti-jamming-protection) This protects your application against jamming (RF interference) and spoofing (malicious attacks).
+Septentrio's technology offers high accuracy and reliability thanks to GNSS + algorithms as well as [Advanced interference Monitoring and Mitigation (AIM+)](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-anti-jamming-protection) This protects your application against jamming (RF interference) and spoofing (malicious attacks).
 
 For more information about Septentrio products go to [**https://www.septentrio.com/**](https://web.septentrio.com/GH-SSN-home).
 
-### Why open source
-This board is open source to encourage collaboration, customization, and innovation. By making the design files publicly available, developers and engineers can study, modify, and adapt the hardware to fit their specific applications, reducing development time and cost. It also promotes transparency and avoids vendor lock-in, allowing users to fully understand and control the design.
+### Why open-source
+This board is open-source to encourage collaboration, customization, and innovation. By making the design files publicly available, developers and engineers can study, modify, and adapt the hardware to fit their specific applications, reducing development time and cost. It also promotes transparency and avoids vendor lock-in, allowing users to fully understand and control the design.
 
 ## Disclaimer
 This project is offered as-is. The main interfaces have been tested, but the design has not been fully checked or approved by the author or Septentrio. You are responsible for how you use it in your own projects. For guidance on working with Septentrio’s GNSS mosaic modules, we suggest reaching out to Septentrio directly.
@@ -61,7 +79,7 @@ This project is offered as-is. The main interfaces have been tested, but the des
 Support website: https://www.septentrio.com/en/support
 
 ### Deliverables
-This Open Source contains the following files for designers, producers and integrators around Septentrio's mosaic modules.
+This open-source contains the following files for designers, producers and integrators around Septentrio's mosaic modules.
 |Files         |description   |
 |--------------|--------------|
 |MosaicTimeSync.kicad_pro| KiCAD project|
@@ -74,18 +92,18 @@ This Open Source contains the following files for designers, producers and integ
 
 #### M.2 form factor
 
-The M.2 form factor provides a compact interface for expansion cards.The MosaicTimeSync board is Key B, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
+The M.2 form factor provides a compact interface for expansion cards.The MosaicTimeSync board is M.2 Key B conector, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
 
 <img src="/pictures/M.2 key B & M.png" width="35%">
 
 
 ## User documentation
 
-### System SetUp
+### System Setup
 
 Before you physically install anything: 
-* Make sure you have a free PCle slot
-* Make sure your BIOS supports Virtualisation/IOMMU for Linux use
+* Make sure you have a free PCIe slot
+* Make sure your BIOS supports Virtualization/IOMMU for Linux use
 * You must connect the GNSS antenna to its SMA connector before inserting the Time Card.
 ##### Boot Linux 
 Boot Linux with the Time Card inserted. 
@@ -98,7 +116,7 @@ The devices are exposed by the driver like:
 
 `/dev/ppsY` -> PPS pulse signal
 
-`/sys/class/timecard/ocp0/`-> status and atttributes
+`/sys/class/timecard/ocp0/`-> status and attributes
 
 These are the time interface paths in the OS.
 
@@ -112,7 +130,7 @@ This will show many devices including GNSS, PPS, PHC clock and atomic clock seri
 ##### Check the GNSS status (satellite time)
 Once Linux has detected the Time Card:
 
-* GNSS time is usually on a serial port like `/dev/ttyS7` or simillar.
+* GNSS time is usually on a serial port like `/dev/ttyS7` or similar.
 * You can run `gpsd` or a tool like `cgps` to check the satellite status.
 
 For Example:
@@ -121,7 +139,7 @@ For Example:
 gpsd /dev/ttyS5
 ```
 
-* To make sure GPS is sending message, use tio
+* To make sure GPS is sending messages, use tio
 
 ```
 tio -b 115200 /dev/ttyS5
@@ -158,29 +176,24 @@ echo OUT: GNSS1 >> sma1
 ```
 
 ##### Use the PHC clock from Linux
-The PHC (Precition Hardware Clock) device exposed by the driver can be used to sync the Linux system clock
+The PHC (Precision Hardware Clock) device exposed by the driver can be used to sync the Linux system clock
 
 ##### When the card is installed and running
 Once everything is configured:
 * The Time Card provides accurate time to Linux
 * You can serve time to network clients using NTP or PTP
-* Your system becomes a Stratum 1 time source because it is tied to GNSS 
+* Your system becomes a Stratum 1 time source 
 
 This means your server can act as a time source for the whole infrastructure.
 
 ##### If something goes wrong
 * If the driver fails to load: make sure you have a new Linux kernel
-* If /dev/ptp doesn’t show: check BIOS PCle settings
+* If /dev/ptp doesn’t show: check BIOS PCIe settings
 * If no GNSS: verify if antenna is connected.
 
 These are normal steps to get the Time Card recognized by Linux.
 
 ## Design documentation
-
-### Hardware files
-* KiCad Project files
-* Schematics PDF 
-* BOM (Bill Of Materials)
 #### Ordering mosaic
 If you need to order a mosaic-G5 T please contact [Septentrio](#Who is Septentrio?)
 
@@ -205,7 +218,8 @@ The above block diagram is showing the overview communication between the antenn
 
 #### Pinout for M.2 Key B Connector
 
-![alt](/pictures/M.2%20connector.PNG)
+<img src="/pictures/M.2%20connector.PNG" width="80%">
+
 
 | Pin # |Signal            |
 |-------|------------------|
