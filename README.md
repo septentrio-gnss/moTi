@@ -202,7 +202,9 @@ If you need to order a mosaic-G5 T please contact [Septentrio](#Who is Septentri
 The above block diagram is showing the overview communication between the antenna, receiver and M.2 edge connector. 
 
 ### Board connections and indicators
-  ![connect](/pictures/connections_edit.png)
+
+<img src="/pictures/connections_edit2.png" width="60%">
+  
 
   
 | interface signals |I/O Type | Voltage | Signal Description |
