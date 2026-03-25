@@ -203,7 +203,7 @@ The above block diagram is showing the overview communication between the antenn
 
 ### Board connections and indicators
 
-<img src="/pictures/connections_edit2.png" width="60%">
+<img src="/pictures/connections_edit2.png" width="80%">
   
 
   
