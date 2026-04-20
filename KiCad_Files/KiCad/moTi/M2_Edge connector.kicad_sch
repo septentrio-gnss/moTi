@@ -5,14 +5,14 @@
 	(uuid "16a1058c-207f-41ab-a104-48e578b4db35")
 	(paper "A3")
 	(title_block
-		(title "MosaicTimeSync")
+		(title "moTi")
 		(date "2025-09-02")
 		(rev "01")
 		(company "Septentrio")
 		(comment 1 "Grant EUSPA/GRANT/02/2024")
 		(comment 2 "Programme under the Fundamental Elements ")
 		(comment 3 "co-funded by the European Union Agency for the Space ")
-		(comment 4 "MosaicTimeSync project has been documented by Septentrio")
+		(comment 4 "moTi project has been documented by Septentrio")
 	)
 	(lib_symbols
 		(symbol "Device:C"

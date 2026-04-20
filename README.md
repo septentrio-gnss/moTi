@@ -1,15 +1,17 @@
-# mosaicTimeSync
-| Author|  [laekaz](https://github.com/laekaz)|
-|------|-------|
-|Maintainer| [(Septentrio gnss github user)](githubuser@septentrio.com)|
-|License|[OCP CLA](https://www.opencompute.org/documents/ocp-cla)|
+# moTi
+| Role        | Contact                                                                 |
+|-------------|-------------------------------------------------------------------------|
+| Author      | [laekaz](https://github.com/laekaz) (project from ANavS)                |
+| Maintainer  | [Septentrio GNSS GitHub User](githubuser@septentrio.com)                |
+| License     | [OCP CLA](https://www.opencompute.org/documents/ocp-cla)                                 |
+|License||
 
 This project is co-funded by the European Union Agency for the Space Programme under the Fundamental Elements Grant EUSPA/GRANT/02/2024
 
 
 ## Table of Content
 * [Introduction](#introduction)
-* [What is the mosaicTimeSync?](#what-is-the-mosaictimesync)
+* [What is a moTi?](#what-is-the-moTi)
   * [Can I buy it?](#can-i-buy-it)
 * [What is a Time Card?](#what-is-a-time-card)
 * [What is a Mosaic-G5 T?](#what-is-a-mosaic-g5-t)
@@ -37,18 +39,18 @@ This project is co-funded by the European Union Agency for the Space Programme u
     * [LED D1](#led-d1)
     * [Antenna Connector](#antenna-connector)
 ## Introduction 
-## What is the mosaicTimeSync?
+## What is a moTi?
 
 <img src="/pictures/20260216_161412%20EDIT.png" width="80%">
 
-The mosaicTimeSync is a timing module that provides accurate and reliable synchronization signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
-This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS Module (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards (NICs), and other hardware in data centres and communication systems.
+moTi is a timing module that provides accurate and reliable synchronization signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
+This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards (NICs), and other hardware in data centres and communication systems.
 
 
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
 
-A Time Card is a PCIe card that is designed to plug into a server and turns provides precision time outputs such as PPS (Pulse Per Second) and ToD (Time of Day) and provides this precise timing to the server’s lock and network hardware, enabling high-accuracy synchronisation using protocols like the NTP or PTP. The mosaicTimeSync module connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
+A Time Card is a PCIe card that is designed to plug into a server and provides precision time outputs such as PPS (Pulse Per Second) and ToD (Time of Day). It provides this precise timing to the server’s clock and network hardware, enabling high-accuracy synchronisation using protocols like the NTP or PTP. moTi connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
 
 Originally, it was developed by Meta and released through the Open Computer Project
 
@@ -78,17 +80,17 @@ Support website: https://www.septentrio.com/en/support
 This open-source contains the following files for designers, producers and integrators around Septentrio's mosaic modules.
 |Files         |description   |
 |--------------|--------------|
-|MosaicTimeSync.kicad_pro| KiCAD project|
-|MosaicTimeSync.kicad_sch|KiCAD schematic|
+|moTi.kicad_pro| KiCAD project|
+|moTi.kicad_sch|KiCAD schematic|
 |mosaic-G5.kicad_sch|KiCAD mosaic-G5 schematic sheet |
 |M2_Edge connector.kicad_sch|KiCAD M.2 Key B schematic sheet|
 |Clockdetect.kicad_sch|KiCAD clock schematic sheet|
-|MosaicTimeSync.kicad_pcb|KiCAD PCB layout|
-|MosaicTimeSync.pdf|schematic PDF|
+|moTi.kicad_pcb|KiCAD PCB layout|
+|moTi.pdf|schematic PDF|
 
 #### M.2 form factor
 
-The M.2 form factor provides a compact interface for expansion cards.The mosaicTimeSync board is M.2 Key B conector, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
+The M.2 form factor provides a compact interface for expansion cards.The moTi board is M.2 Key B conector, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
 
 <img src="/pictures/M.2 key B & M.png" width="35%">
 
@@ -191,7 +193,7 @@ These are normal steps to get the Time Card recognized by Linux.
 
 ## Design documentation
 #### Ordering mosaic
-If you need to order a mosaic-G5 T please contact [Septentrio](#Who is Septentrio?)
+If you need to order a mosaic-G5 T please contact [Septentrio](https://www.septentrio.com/en/support)
 
 <img src="/pictures/block%20diagram.png" width="80%">
 
