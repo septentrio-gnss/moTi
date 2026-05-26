@@ -170,146 +170,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "M.2_edge connector:M.2_type_B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2504,6 +2364,10 @@
 		(uuid "164db08e-3adc-4c7f-8263-060eda620dcc")
 	)
 	(no_connect
+		(at 231.14 133.35)
+		(uuid "1960ee96-9fcf-42ef-a216-6367c0a3ec95")
+	)
+	(no_connect
 		(at 171.45 148.59)
 		(uuid "38e3878d-0ea2-4ec3-86d8-a6cee9d1cb60")
 	)
@@ -2552,6 +2416,10 @@
 		(uuid "abc0c525-2d3e-4af4-b5f4-b059feb2b123")
 	)
 	(no_connect
+		(at 231.14 129.54)
+		(uuid "af16b984-edc0-4d6f-92a7-9fd90c9f9e9e")
+	)
+	(no_connect
 		(at 171.45 121.92)
 		(uuid "b31997a4-9c5f-4fd7-b4da-3cedb3e7e9c2")
 	)
@@ -2579,16 +2447,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 78.74) (xy 294.64 78.74)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0478c171-d8d7-40f1-ae49-662fec0fb440")
-	)
-	(wire
-		(pts
 			(xy 274.32 186.69) (xy 281.94 186.69)
 		)
 		(stroke
@@ -2606,16 +2464,6 @@
 			(type default)
 		)
 		(uuid "06d04398-4852-4774-a7ca-e4798c78e6ae")
-	)
-	(wire
-		(pts
-			(xy 245.11 72.39) (xy 245.11 78.74)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0a586c6c-4b1b-43c2-93c5-b12bf4ccfafe")
 	)
 	(wire
 		(pts
@@ -2639,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 72.39) (xy 245.11 72.39)
+			(xy 231.14 72.39) (xy 294.64 72.39)
 		)
 		(stroke
 			(width 0.254)
@@ -2649,7 +2497,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 78.74) (xy 294.64 83.82)
+			(xy 294.64 72.39) (xy 294.64 83.82)
 		)
 		(stroke
 			(width 0.254)
@@ -2666,16 +2514,6 @@
 			(type default)
 		)
 		(uuid "1f82cbc6-e73d-47a7-98a2-5a96ce1dea96")
-	)
-	(wire
-		(pts
-			(xy 247.65 129.54) (xy 259.08 129.54)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "20a0a696-6b68-48ef-acca-adaf3042f34a")
 	)
 	(wire
 		(pts
@@ -2746,16 +2584,6 @@
 			(type default)
 		)
 		(uuid "3e000258-15ec-4c1f-a1d6-be4802776e48")
-	)
-	(wire
-		(pts
-			(xy 247.65 133.35) (xy 259.08 133.35)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "44007bcc-28c6-41eb-86b8-f10e2ccb5a07")
 	)
 	(wire
 		(pts
@@ -2919,16 +2747,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 129.54) (xy 240.03 129.54)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "a3c85dfe-2f12-4b42-bddb-2ade6f801d56")
-	)
-	(wire
-		(pts
 			(xy 234.95 186.69) (xy 261.62 186.69)
 		)
 		(stroke
@@ -3016,16 +2834,6 @@
 			(type default)
 		)
 		(uuid "c7de6d5c-fe3a-47e4-a6bf-5eb5943f53ab")
-	)
-	(wire
-		(pts
-			(xy 231.14 133.35) (xy 240.03 133.35)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "ca3711fc-1d11-4130-865d-6156c92b4edf")
 	)
 	(wire
 		(pts
@@ -3542,52 +3350,6 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 259.08 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b0003ff6-1725-4b9f-8582-5b586a7fa32e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7446 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape output)
-		(at 259.08 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b136a87d-8a08-4e55-b9ee-fcd79279e2e4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.5728 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "LED1"
 		(shape input)
 		(at 308.61 93.98 0)
@@ -3737,113 +3499,6 @@
 			(project "moTi"
 				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946/85b8fc18-76b7-46aa-a23c-a93a696263bf"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 243.84 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "185ea9ea-c332-4f90-9200-a8610be26d8e")
-		(property "Reference" "R6"
-			(at 247.904 132.588 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 243.84 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 243.84 135.128 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 243.84 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04020000Z0EDC"
-			(at 243.84 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "26752da8-9da6-4f64-afe6-f6571b2ec548")
-		)
-		(pin "1"
-			(uuid "953c1aa2-66a4-4ea2-a39c-b3f50d63a94a")
-		)
-		(instances
-			(project "M2_Edge connector"
-				(path "/16a1058c-207f-41ab-a104-48e578b4db35"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "moTi"
-				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946/85b8fc18-76b7-46aa-a23c-a93a696263bf"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5367,113 +5022,6 @@
 			(project "moTi"
 				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946/85b8fc18-76b7-46aa-a23c-a93a696263bf"
 					(reference "FID6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 243.84 129.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "8aa6e54c-a35d-4fc2-8313-be335d2ef02c")
-		(property "Reference" "R5"
-			(at 247.904 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 243.84 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 243.84 131.318 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 243.84 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW04020000Z0EDC"
-			(at 243.84 129.54 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "26752da8-9da6-4f64-afe6-f6571b2ec549")
-		)
-		(pin "1"
-			(uuid "953c1aa2-66a4-4ea2-a39c-b3f50d63a94b")
-		)
-		(instances
-			(project "M2_Edge connector"
-				(path "/16a1058c-207f-41ab-a104-48e578b4db35"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "moTi"
-				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946/85b8fc18-76b7-46aa-a23c-a93a696263bf"
-					(reference "R5")
 					(unit 1)
 				)
 			)

@@ -4032,10 +4032,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a4f00a5-1358-4799-b4a6-efd87579146b")
 		(property "Reference" "R3"
-			(at 116.84 57.1499 0)
+			(at 116.078 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4046,7 +4045,7 @@
 			)
 		)
 		(property "Value" "1.0k"
-			(at 116.84 59.6899 0)
+			(at 114.3 60.452 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
