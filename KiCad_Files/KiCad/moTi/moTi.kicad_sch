@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "a9fd92c2-3c56-4e0a-a5ac-af47c0a80946")
 	(paper "A3")
 	(title_block
@@ -19,8 +19,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "PCB"
 				(at 0 2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -29,6 +33,8 @@
 			)
 			(property "Value" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -37,29 +43,35 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "EXT-0060-1001-AA01_0_1"
@@ -370,177 +382,6 @@
 		)
 	)
 	(table
-		(column_count 4)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 54.61 54.61 78.74 95.25)
-		(row_heights 7.366 8.636)
-		(cells
-			(table_cell "Revision"
-				(exclude_from_sim no)
-				(at 58.928 149.86 0)
-				(size 54.61 7.366)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type color)
-					(color 194 194 194 0.5)
-				)
-				(effects
-					(font
-						(size 2.54 2.54)
-						(thickness 0.508)
-						(bold yes)
-					)
-					(justify left top)
-				)
-				(uuid "ada5d1a5-7d35-4751-adb0-2bcd18b9d105")
-			)
-			(table_cell "Date"
-				(exclude_from_sim no)
-				(at 113.538 149.86 0)
-				(size 54.61 7.366)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type color)
-					(color 194 194 194 0.5)
-				)
-				(effects
-					(font
-						(size 2.54 2.54)
-						(thickness 0.508)
-						(bold yes)
-					)
-					(justify left top)
-				)
-				(uuid "e5982a6c-7abe-45e7-ba15-84cec7437b2c")
-			)
-			(table_cell "By"
-				(exclude_from_sim no)
-				(at 168.148 149.86 0)
-				(size 78.74 7.366)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type color)
-					(color 194 194 194 0.5)
-				)
-				(effects
-					(font
-						(size 2.54 2.54)
-						(thickness 0.508)
-						(bold yes)
-					)
-					(justify left top)
-				)
-				(uuid "cb9affe2-4a28-4968-b19e-a1b88ec6e63e")
-			)
-			(table_cell "Description"
-				(exclude_from_sim no)
-				(at 246.888 149.86 0)
-				(size 95.25 7.366)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type color)
-					(color 194 194 194 0.5)
-				)
-				(effects
-					(font
-						(size 2.54 2.54)
-						(thickness 0.508)
-						(bold yes)
-					)
-					(justify left top)
-				)
-				(uuid "63b04e26-eac0-4e33-a9bf-56e1a3bc70d3")
-			)
-			(table_cell "01"
-				(exclude_from_sim no)
-				(at 58.928 157.226 0)
-				(size 54.61 8.636)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(justify left top)
-				)
-				(uuid "274a967e-d204-4997-9ac8-d524f336f945")
-			)
-			(table_cell "2025-09-01"
-				(exclude_from_sim no)
-				(at 113.538 157.226 0)
-				(size 54.61 8.636)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(justify left top)
-				)
-				(uuid "54b7981e-418f-4140-ac9b-60ce1327a580")
-			)
-			(table_cell "K. Heyndrickx"
-				(exclude_from_sim no)
-				(at 168.148 157.226 0)
-				(size 78.74 8.636)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(justify left top)
-				)
-				(uuid "94ddc249-44c7-4378-ab76-bdfe5cf74b74")
-			)
-			(table_cell "Initial release"
-				(exclude_from_sim no)
-				(at 246.888 157.226 0)
-				(size 95.25 8.636)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 2.54 2.54)
-					)
-					(justify left top)
-				)
-				(uuid "8b0c579b-e822-4ae8-b0ba-209c5bb25cd5")
-			)
-		)
-	)
-	(table
 		(column_count 2)
 		(border
 			(external yes)
@@ -560,6 +401,7 @@
 		)
 		(column_widths 24.13 63.5)
 		(row_heights 5.08 5.08 5.08 5.08 5.08)
+		(uuid "283b353b-0c1e-4b98-9ef4-36eba53c9fc0")
 		(cells
 			(table_cell "PAGE#"
 				(exclude_from_sim no)
@@ -739,26 +581,204 @@
 			)
 		)
 	)
+	(table
+		(column_count 4)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 54.61 54.61 78.74 95.25)
+		(row_heights 7.366 8.636)
+		(uuid "2e01a587-0f9a-406f-b787-c6caf0787b44")
+		(cells
+			(table_cell "Revision"
+				(exclude_from_sim no)
+				(at 58.928 149.86 0)
+				(size 54.61 7.366)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "ada5d1a5-7d35-4751-adb0-2bcd18b9d105")
+			)
+			(table_cell "Date"
+				(exclude_from_sim no)
+				(at 113.538 149.86 0)
+				(size 54.61 7.366)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "e5982a6c-7abe-45e7-ba15-84cec7437b2c")
+			)
+			(table_cell "By"
+				(exclude_from_sim no)
+				(at 168.148 149.86 0)
+				(size 78.74 7.366)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "cb9affe2-4a28-4968-b19e-a1b88ec6e63e")
+			)
+			(table_cell "Description"
+				(exclude_from_sim no)
+				(at 246.888 149.86 0)
+				(size 95.25 7.366)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.5)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+						(thickness 0.508)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "63b04e26-eac0-4e33-a9bf-56e1a3bc70d3")
+			)
+			(table_cell "01"
+				(exclude_from_sim no)
+				(at 58.928 157.226 0)
+				(size 54.61 8.636)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "274a967e-d204-4997-9ac8-d524f336f945")
+			)
+			(table_cell "2025-09-01"
+				(exclude_from_sim no)
+				(at 113.538 157.226 0)
+				(size 54.61 8.636)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "54b7981e-418f-4140-ac9b-60ce1327a580")
+			)
+			(table_cell "K. Heyndrickx"
+				(exclude_from_sim no)
+				(at 168.148 157.226 0)
+				(size 78.74 8.636)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "94ddc249-44c7-4378-ab76-bdfe5cf74b74")
+			)
+			(table_cell "Initial release"
+				(exclude_from_sim no)
+				(at 246.888 157.226 0)
+				(size 95.25 8.636)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "8b0c579b-e822-4ae8-b0ba-209c5bb25cd5")
+			)
+		)
+	)
 	(symbol
 		(lib_id "PCB_label:EXT-0060-1001-AA01")
 		(at 190.5 266.7 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa1d3d9-6662-4bb9-b434-fee7d1ecaa9c")
 		(property "Reference" "PCB1"
 			(at 191.135 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 191.135 262.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,33 +787,39 @@
 		)
 		(property "Footprint" "PCB_label:PCB_label"
 			(at 190.5 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 190.5 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 190.5 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "moTi"
 				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946"
 					(reference "PCB1")
 					(unit 1)
@@ -814,11 +840,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6c55496e-da21-44b0-9ae8-5da26b28f5e7")
 		(property "Sheetname" "Clock detection"
 			(at 128.27 258.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,6 +856,8 @@
 		)
 		(property "Sheetfile" "Clockdetect.kicad_sch"
 			(at 128.27 268.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -856,11 +886,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "85b8fc18-76b7-46aa-a23c-a93a696263bf")
 		(property "Sheetname" "M.2 Key B Edge Connector"
 			(at 39.37 258.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,6 +902,8 @@
 		)
 		(property "Sheetfile" "M2_Edge connector.kicad_sch"
 			(at 39.37 268.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,11 +932,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "bde354f0-d05f-47ff-ad0f-ae1e8fb8db93")
 		(property "Sheetname" "mosaic-G5"
 			(at 83.82 258.3684 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,6 +948,8 @@
 		)
 		(property "Sheetfile" "mosaic-G5.kicad_sch"
 			(at 83.82 268.5546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

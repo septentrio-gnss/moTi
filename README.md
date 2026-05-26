@@ -4,12 +4,12 @@
 | Author      | [laekaz](https://github.com/laekaz) (project from ANavS)                |
 | Maintainer  | [Septentrio GNSS GitHub User](githubuser@septentrio.com)                |
 | License     | [OCP CLA](https://www.opencompute.org/documents/ocp-cla)                                 |
-|License||
+
 
 This project is co-funded by the European Union Agency for the Space Programme under the Fundamental Elements Grant EUSPA/GRANT/02/2024
 
 
-## Table of Content
+## Table of Contents
 * [Introduction](#introduction)
 * [What is a moTi?](#what-is-the-moTi)
   * [Can I buy it?](#can-i-buy-it)
@@ -25,7 +25,7 @@ This project is co-funded by the European Union Agency for the Space Programme u
     * [Boot Linux](#boot-linux)
     * [Check the GNSS Status (Satellite Time)](#check-the-gnss-status-satellite-time)
     * [Output the PPS and Clock](#output-the-pps-and-clock)
-    * [Use the PHC Clock from Linux](#use-the-phc-clock-from-linux)
+    * [Use the PHC from Linux](#use-the-phc-from-linux)
     * [When the Card is Installed and Running](#when-the-card-is-installed-and-running)
     * [If Something Goes Wrong](#if-something-goes-wrong)
 * [Design Documentation](#design-documentation)
@@ -43,8 +43,8 @@ This project is co-funded by the European Union Agency for the Space Programme u
 
 <img src="/pictures/20260216_161412%20EDIT.png" width="80%">
 
-moTi is a timing module that provides accurate and reliable synchronization signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
-This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS (Global Navigation Satellite Systems) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (TOD) data. These signals are then used to synchronise services, in network interface cards (NICs), and other hardware in data centres and communication systems.
+moTi is a timing module that provides accurate and reliable synchronisation signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
+This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS (Global Navigation Satellite System) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (ToD) data. These signals are then used to synchronise services, in network interface cards (NICs), and other hardware in data centres and communication systems.
 
 
 ## What is a Time Card?
@@ -52,7 +52,7 @@ This board receives precise timing information from Septentrio’s mosaic-G5 T G
 
 A Time Card is a PCIe card that is designed to plug into a server and provides precision time outputs such as PPS (Pulse Per Second) and ToD (Time of Day). It provides this precise timing to the server’s clock and network hardware, enabling high-accuracy synchronisation using protocols like the NTP or PTP. moTi connects to the Time Card as a timing source, supplying the card with GNSS time signals in standardised form factor.
 
-Originally, it was developed by Meta and released through the Open Computer Project
+Originally, it was developed by Meta and released through the Open Compute Project
 
 More information about the Time Card on this [link](https://fr.scribd.com/document/803083407/M-2-Sync-Module-OCP-Base-Specification-1-1-1) or [Github](https://github.com/Time-Appliances-Project/Time-Card?tab=readme-ov-file) 
 
@@ -62,14 +62,14 @@ More information about the Time Card on this [link](https://fr.scribd.com/docume
 ## Who is Septentrio?
 ![logo](/pictures/Septentrio_Hex_logo.png)
 
-Septentrio is a leading company that designs, manufactures and sells high precision and multi-frequency GPS/GNSS receivers for demanding applications. Septentrio products are used in different industries including automotive, marine, construction, rail, machine control, logistics, precision agriculture, geographic information systems (GIS), Unmanned aerial vehicles (UAVs), surveying, mapping and scientific development. Septentrio’s receivers constantly deliver accurate and precise GNSS positioning scalable to centimetre-level and designed to perform perfectly in challenging environments. 
+Septentrio is a leading company that designs, manufactures and sells high precision and multi-frequency GPS/GNSS receivers for demanding applications. Septentrio products are used in different industries including automotive, marine, construction, rail, machine control, logistics, precision agriculture, geographic information systems (GIS), Unmanned Aerial Vehicles (UAVs), surveying, mapping and scientific development. Septentrio’s receivers constantly deliver accurate and precise GNSS positioning scalable to centimetre-level and designed to perform perfectly in challenging environments. 
 
 Septentrio's technology offers high accuracy and reliability thanks to GNSS + algorithms as well as [Advanced interference Monitoring and Mitigation (AIM+)](https://www.septentrio.com/en/learn-more/advanced-positioning-technology/aim-anti-jamming-protection) This protects your application against jamming (RF interference) and spoofing (malicious attacks).
 
 For more information about Septentrio products go to [**https://www.septentrio.com/**](https://web.septentrio.com/GH-SSN-home).
 
 ### Why open-source
-This board is open-source to encourage collaboration, customization, and innovation. By making the design files publicly available, developers and engineers can study, modify, and adapt the hardware to fit their specific applications, reducing development time and cost. It also promotes transparency and avoids vendor lock-in, allowing users to fully understand and control the design.
+This board is open source to encourage collaboration, customization, and innovation. By making the design files publicly available, developers and engineers can study, modify, and adapt the hardware to fit their specific applications, reducing development time and cost. It also promotes transparency and avoids vendor lock-in, allowing users to fully understand and control the design.
 
 ## Disclaimer
 This project is offered as-is. The main interfaces have been tested, but the design has not been fully checked or approved by the author or Septentrio. You are responsible for how you use it in your own projects. For guidance on working with Septentrio’s GNSS mosaic modules, we suggest reaching out to Septentrio directly.
@@ -77,7 +77,7 @@ This project is offered as-is. The main interfaces have been tested, but the des
 Support website: https://www.septentrio.com/en/support
 
 ### Deliverables
-This open-source contains the following files for designers, producers and integrators around Septentrio's mosaic modules.
+This open-source project contains the following files for designers, producers and integrators around Septentrio's mosaic modules.
 |Files         |description   |
 |--------------|--------------|
 |moTi.kicad_pro| KiCAD project|
@@ -90,7 +90,7 @@ This open-source contains the following files for designers, producers and integ
 
 #### M.2 form factor
 
-The M.2 form factor provides a compact interface for expansion cards.The moTi board is M.2 Key B conector, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
+The M.2 form factor provides a compact interface for expansion cards.The moTi board is M.2 Key B connector, but it can also fit into some Key M or B+M slots. B+M slots are designed with extra notches so they accept both Key B and Key M modules, allowing flexibility in installation. This means your Key B board can interconnect with a Key M-compatible slot as long as it’s a B+M slot, ensuring proper electrical connections and compatibility.
 
 <img src="/pictures/M.2 key B & M.png" width="35%">
 
@@ -106,11 +106,11 @@ Before you physically install anything:
 ##### Boot Linux 
 Boot Linux with the Time Card inserted. 
 
-If your Linux uses the Kernel 5.15 or newer the Time Card driver is already included. So the kernel loads the driver automatically.
+If your Linux system uses the Kernel 5.15 or newer the Time Card driver is already included. So the kernel loads the driver automatically.
 
 The devices are exposed by the driver like:
 
-`/dev/ptpX` -> PHC clock device 
+`/dev/ptpX` -> PHC device 
 
 `/dev/ppsY` -> PPS pulse signal
 
@@ -131,7 +131,7 @@ Once Linux has detected the Time Card:
 * GNSS time is usually on a serial port like `/dev/ttyS7` or similar.
 * You can run `gpsd` or a tool like `cgps` to check the satellite status.
 
-For Example:
+For example:
 
 ```
 gpsd /dev/ttyS5
@@ -154,7 +154,7 @@ available_sma_outputs contains all available outputs
 To list available outputs:
 ```
 cat available_sma_outputs
-    10Mhz PHC MAC GNSS1 GNSS2 IRIG DCF GEN1 GEN2 GEN3 GEN4 GND VCC
+    10MHz PHC MAC GNSS1 GNSS2 IRIG DCF GEN1 GEN2 GEN3 GEN4 GND VCC
 ```
 ```
  cat /sys/class/timecard/ocp0/available_sma_outputs 
@@ -173,7 +173,7 @@ echo OUT: MAC >> sma1
 echo OUT: GNSS1 >> sma1
 ```
 
-##### Use the PHC clock from Linux
+##### Use the PHC from Linux
 The PHC (Precision Hardware Clock) device exposed by the driver can be used to sync the Linux system clock
 
 ##### When the card is installed and running
@@ -185,7 +185,7 @@ Once everything is configured:
 This means your server can act as a time source for the whole infrastructure.
 
 ##### If something goes wrong
-* If the driver fails to load: make sure you have a new Linux kernel
+* If the driver fails to load: make sure you have a newer Linux kernel
 * If /dev/ptp doesn’t show: check BIOS PCIe settings
 * If no GNSS: verify if antenna is connected.
 
@@ -204,15 +204,15 @@ The above block diagram is showing the overview communication between the antenn
 <img src="/pictures/connections_edit2.png" width="80%">
   
 
-  
 | interface signals |I/O Type | Voltage | Signal Description |
 |-------------------|---------|---------|--------------------|
-| Power             | power   |  3.3V   |3.3 V Supply pin.   |
+| Power             | Power   |  3.3V   |3.3 V Supply pin.   |
 | UART              |   I&O   |    3.3V | Universal Asynchronous Receiver Transmitter, RX & TX|
-| PPS Out 1         |   O     | 3.3v    |Pulse-per-second signal out#1.
-| PPS Out 2         |   O     | 3.3v    |Pulse-per-second signal out#2.
-| Event 1 (PPS IN)  |   I     |   3.3V  |Pulse-per-second reference signal input. If not used, connect to ground on Platforms.|
-| CLK_IN            |   I     | 3.3V    |10MHz reference clock input. If not used, connect to the ground|
+|USB                |   I/O   |  3.3V   | Universal Serial Bus interface, USB D+ and D− differential data lines|
+| PPS Out 1         |   O     | 3.3V    |Pulse Per Second signal out#1.
+| PPS Out 2         |   O     | 3.3V    |Pulse Per Second signal out#2.
+| Event 1 (PPS IN)  |   I     |   3.3V  |Pulse Per Second reference signal input. If not used, connect to ground on Platforms.|
+| CLK_IN            |   I     | 3.3V    |10MHz reference clock input. If not used, connect to ground|
 | CLK_OUT           |   O     | 3.3V    |10MHz output clock.   |
 | LED D1            |   O     | 3.3V    |Power Supply indicator|
 
@@ -229,35 +229,46 @@ The above block diagram is showing the overview communication between the antenn
 | 67	|nRST_IN           |
 | 2, 4	|VBAT              |
 | 10	|LED#1             |
-| 20	|PPS2              |
+| 20	|PPS2 output       |
 | 22	|Ref_CLK_SEL       |
 | 24	|PPS input         |
-| 46	|PPS1              |
+| 46	|PPS1 output       |
 | 48	|10MHz clock output|
 | 62	|UART COM1 Rx      |
 | 64	|UART COM1 Tx      |
-| 70, 72, 74|   Power 3.3v |
+| 70, 72, 74|   Power 3.3V |
 | GND	|GND               |
 
 
 **USB 2.0** pins USB_D+ and USB_D- 
-When the module is inserted into a card that supports USB pins on its edge connector, the USB interface works just like it would on any other device. It is used for data, configuration, and control. It carries data such as , Time of Day (ToD) for the GNSS, diagnostic messages and firmware updates channels. The Time Card will act as the USB host.
+When the module is inserted into a card that supports USB pins on its edge connector, the USB interface works just like it would on any other device. It is used for data, configuration, and control. It carries data such as , Time of Day (ToD) for the GNSS, diagnostic messages and firmware update channels. The Time Card will act as the USB host.
 
 **UART** (Universal Asynchronous Receiver Transmitter)
 This is a standard serial port using TX and RX pins.
 
-**PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card Clocking system. 
+**PPS Out** timing reference signal output. This supplies high-precision timing references directly into the Time Card clocking system. 
 
 **Event 1 (PPS IN)** This pin detects a pulse from an external device and records the exact GNSS time when the pulse happened. It is connected to the eventB pin of the mosaic-G5 T
 
 ##### LED D1
 ![alt](/pictures/LED2+.png)
-This LED indicates if the Module is ON/OFF
+This LED indicates whether the Module is ON/OFF
 
 ##### Antenna connector
 ![alt](/pictures/antenna.PNG)
 
-This connector is a U.FL (UMCC) Connector receptacle, Male PIn 50 Ohms        
+The board provides a U.FL (UMCC) 50 Ω PCB receptacle for connecting an external GNSS antenna.
+This miniature RF connector is commonly used in compact embedded and wireless systems due to its small size and reliable high-frequency performance.
+
+**Connector Details**
+* Type: U.FL (UMCC) Receptacle
+* Impedance: 50 Ω
+* Application: External active/passive GNSS antenna connection
+
+**Notes**
+* Use a compatible U.FL/IPX coaxial cable assembly when connecting an antenna.
+* Keep RF cable lengths as short as possible to minimize signal loss.
+* Ensure the antenna system is properly matched to 50 Ω impedance for optimal RF performance.     
 
 
 
