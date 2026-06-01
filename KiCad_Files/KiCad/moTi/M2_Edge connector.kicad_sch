@@ -7,12 +7,13 @@
 	(title_block
 		(title "moTi")
 		(date "2025-09-02")
-		(rev "01")
+		(rev "02")
 		(company "Septentrio")
 		(comment 1 "Grant EUSPA/GRANT/02/2024")
 		(comment 2 "Programme under the Fundamental Elements ")
 		(comment 3 "co-funded by the European Union Agency for the Space ")
 		(comment 4 "moTi project has been documented by Septentrio")
+		(comment 5 "  ")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2305,6 +2306,27 @@
 		)
 		(uuid "79c655fe-4622-44c3-a4df-4788da72aa3d")
 	)
+	(text_box "Schematics arranged by Laetitia.K"
+		(exclude_from_sim no)
+		(at 372.11 271.78 0)
+		(size 35.56 3.9483)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f6ec8e11-335c-44ac-800f-35010887868b")
+	)
 	(junction
 		(at 234.95 190.5)
 		(diameter 0)
@@ -2316,12 +2338,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4deda72e-73f3-44f7-85cf-181e40d7f226")
-	)
-	(junction
-		(at 236.22 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62df8081-7d33-45b9-8be5-8df220bd4d5b")
 	)
 	(junction
 		(at 234.95 186.69)
@@ -2340,12 +2356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3259426-64d4-4426-9840-be6ad736e1a3")
-	)
-	(junction
-		(at 240.03 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f32427d9-c5c3-4152-9e20-6caf641fd819")
 	)
 	(no_connect
 		(at 231.14 156.21)
@@ -2366,6 +2376,10 @@
 	(no_connect
 		(at 231.14 133.35)
 		(uuid "1960ee96-9fcf-42ef-a216-6367c0a3ec95")
+	)
+	(no_connect
+		(at 231.14 57.15)
+		(uuid "29be8643-7f98-4630-9c2f-97b9d68c3155")
 	)
 	(no_connect
 		(at 171.45 148.59)
@@ -2394,6 +2408,10 @@
 	(no_connect
 		(at 231.14 106.68)
 		(uuid "833f0048-5732-4c7e-b742-c4f9c5fac720")
+	)
+	(no_connect
+		(at 231.14 60.96)
+		(uuid "880909b1-0e6f-479f-a2a0-7c9ae61f91a8")
 	)
 	(no_connect
 		(at 171.45 133.35)
@@ -2467,16 +2485,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 57.15) (xy 281.94 55.88)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "0aeeddc3-c5bb-4067-b059-55a0b2de8769")
-	)
-	(wire
-		(pts
 			(xy 166.37 64.77) (xy 171.45 64.77)
 		)
 		(stroke
@@ -2547,16 +2555,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 60.96) (xy 236.22 60.96)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "2ffa87d5-6b52-44f6-9a8f-0a81c07ef813")
-	)
-	(wire
-		(pts
 			(xy 166.37 60.96) (xy 171.45 60.96)
 		)
 		(stroke
@@ -2624,16 +2622,6 @@
 			(type default)
 		)
 		(uuid "60b9545c-f0ed-4804-b74e-c196779aa2bf")
-	)
-	(wire
-		(pts
-			(xy 240.03 57.15) (xy 281.94 57.15)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "644f2114-4c59-4dbf-bc13-f1a686a66cca")
 	)
 	(wire
 		(pts
@@ -2717,16 +2705,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 60.96) (xy 236.22 57.15)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "96cc92c0-0522-4f4b-8433-d17120e30584")
-	)
-	(wire
-		(pts
 			(xy 166.37 198.12) (xy 171.45 198.12)
 		)
 		(stroke
@@ -2764,16 +2742,6 @@
 			(type default)
 		)
 		(uuid "b022effc-7f4a-467f-8ed8-c84d079887b5")
-	)
-	(wire
-		(pts
-			(xy 240.03 57.15) (xy 240.03 55.88)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "b3698ccc-fe62-492a-98cc-329890100eb8")
 	)
 	(wire
 		(pts
@@ -2847,16 +2815,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 57.15) (xy 240.03 57.15)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "d394afe3-df52-46a7-a16f-c01feabad152")
-	)
-	(wire
-		(pts
 			(xy 166.37 186.69) (xy 171.45 186.69)
 		)
 		(stroke
@@ -2914,16 +2872,6 @@
 			(type default)
 		)
 		(uuid "f0c5af7c-1fb5-43e6-aaf0-9246e348fff7")
-	)
-	(wire
-		(pts
-			(xy 231.14 57.15) (xy 236.22 57.15)
-		)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(uuid "f5c700fa-5a7c-466c-9280-048690332b32")
 	)
 	(wire
 		(pts
@@ -3813,7 +3761,7 @@
 		(instances
 			(project "M2_Edge connector"
 				(path "/16a1058c-207f-41ab-a104-48e578b4db35"
-					(reference "Q?")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4296,7 +4244,7 @@
 		(instances
 			(project "M2_Edge connector"
 				(path "/16a1058c-207f-41ab-a104-48e578b4db35"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6499,90 +6447,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 240.03 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "daab0e89-368d-4525-b9e4-8a0f1e6ddf46")
-		(property "Reference" "#FLG01"
-			(at 240.03 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 240.03 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c6fb33a-9905-4d9c-8678-7208d2e9497d")
-		)
-		(instances
-			(project "M2_Edge connector"
-				(path "/16a1058c-207f-41ab-a104-48e578b4db35"
-					(reference "#FLG?")
-					(unit 1)
-				)
-			)
-			(project "moTi"
-				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946/85b8fc18-76b7-46aa-a23c-a93a696263bf"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Fiducial")
 		(at 52.07 250.19 0)
 		(unit 1)
@@ -6725,90 +6589,6 @@
 			(project "moTi"
 				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946/85b8fc18-76b7-46aa-a23c-a93a696263bf"
 					(reference "FID3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 281.94 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fcee6448-5f18-4230-a0fe-ae29d8ea8202")
-		(property "Reference" "#PWR010"
-			(at 281.94 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 279.654 51.054 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 281.94 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6948aad5-3fb2-4832-9d10-c1dc0b0d1929")
-		)
-		(instances
-			(project "M2_Edge connector"
-				(path "/16a1058c-207f-41ab-a104-48e578b4db35"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "moTi"
-				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946/85b8fc18-76b7-46aa-a23c-a93a696263bf"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)

@@ -3,7 +3,11 @@
 |-------------|-------------------------------------------------------------------------|
 | Author      | [laekaz](https://github.com/laekaz) (project from ANavS)                |
 | Maintainer  | [Septentrio GNSS GitHub User](githubuser@septentrio.com)                |
-| License     | [OCP CLA](https://www.opencompute.org/documents/ocp-cla)                                 |
+| License     | [OCP CLA](https://www.opencompute.org/documents/ocp-cla)                |
+
+<p align="center">
+  <img src="/pictures/logo.png" alt="logo" width="300">
+</p>
 
 
 This project is co-funded by the European Union Agency for the Space Programme under the Fundamental Elements Grant EUSPA/GRANT/02/2024
@@ -41,7 +45,7 @@ This project is co-funded by the European Union Agency for the Space Programme u
 ## Introduction 
 ## What is a moTi?
 
-<img src="/pictures/20260216_161412%20EDIT.png" width="80%">
+<img src="/pictures/moTi board.png" width="80%">
 
 moTi is a timing module that provides accurate and reliable synchronisation signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
 This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS (Global Navigation Satellite System) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (ToD) data. These signals are then used to synchronise services, in network interface cards (NICs), and other hardware in data centres and communication systems.

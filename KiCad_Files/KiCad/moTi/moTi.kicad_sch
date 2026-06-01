@@ -7,12 +7,13 @@
 	(title_block
 		(title "moTi")
 		(date "2025-09-02")
-		(rev "01")
+		(rev "02")
 		(company "Septentrio")
 		(comment 1 "Grant EUSPA/GRANT/02/2024")
 		(comment 2 "Programme under the Fundamental Elements")
 		(comment 3 "co-funded by the European Union Agency for the Space")
 		(comment 4 "moTi project has been documented by Septentrio")
+		(comment 5 "   ")
 	)
 	(lib_symbols
 		(symbol "PCB_label:EXT-0060-1001-AA01"
@@ -172,6 +173,27 @@
 		)
 		(uuid "d2cd4ca9-fc33-4c0e-a5e6-e8539a3be354")
 	)
+	(text_box "Schematics arranged by Laetitia.K"
+		(exclude_from_sim no)
+		(at 372.11 271.6417 0)
+		(size 35.56 3.9483)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "64ae0f15-ca64-4877-b1e5-73f1ee055dc6")
+	)
 	(polyline
 		(pts
 			(xy 256.286 190.246) (xy 256.286 190.246)
@@ -183,7 +205,7 @@
 		(uuid "8eb81699-cc75-4c7d-a9cb-08d7b96cdca3")
 	)
 	(image
-		(at 389.89 260.35)
+		(at 387.35 260.35)
 		(scale 0.614071)
 		(uuid "d5ae2dfc-f035-46b7-936e-4a8a5cc4f082")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAREAAABcCAYAAABJJYGIAAAAAXNSR0IArs4c6QAAAARnQU1BAACx"
@@ -600,7 +622,7 @@
 			)
 		)
 		(column_widths 54.61 54.61 78.74 95.25)
-		(row_heights 7.366 8.636)
+		(row_heights 7.366 8.636 8.636)
 		(uuid "2e01a587-0f9a-406f-b787-c6caf0787b44")
 		(cells
 			(table_cell "Revision"
@@ -750,6 +772,74 @@
 					(justify left top)
 				)
 				(uuid "8b0c579b-e822-4ae8-b0ba-209c5bb25cd5")
+			)
+			(table_cell "02"
+				(exclude_from_sim no)
+				(at 58.928 165.862 0)
+				(size 54.61 8.636)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "b53bc9d7-ec6e-4277-aba1-b4ca48f20a56")
+			)
+			(table_cell "2026-04-15"
+				(exclude_from_sim no)
+				(at 113.538 165.862 0)
+				(size 54.61 8.636)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "5263791d-df16-496a-ae31-82d51c9a2a08")
+			)
+			(table_cell "K. Heyndrick"
+				(exclude_from_sim no)
+				(at 168.148 165.862 0)
+				(size 78.74 8.636)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "eda4ce5a-9f1f-4fb8-b886-655c6ab18147")
+			)
+			(table_cell "Update:Add pull-down resisitor on gate Q1"
+				(exclude_from_sim no)
+				(at 246.888 165.862 0)
+				(size 95.25 8.636)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left top)
+				)
+				(uuid "d70a800f-cf05-4ff8-823e-8a0b7b2c7c22")
 			)
 		)
 	)

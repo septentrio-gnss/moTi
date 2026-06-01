@@ -1,9 +1,0 @@
-Manufacturer=Micro Crystal AG
-PartNumber=RV-3032-C7
-PartCategory=Crystal or Oscillator
-PackageCategory=Other
-PinCount=8
-Version=4.6
-Released=2020-10-13 10:14:32
-Downloaded=2025-09-15 07:30:51
-3D=Y

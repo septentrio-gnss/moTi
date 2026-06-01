@@ -7,12 +7,13 @@
 	(title_block
 		(title "moTi")
 		(date "2025-09-02")
-		(rev "01")
+		(rev "02")
 		(company "Septentrio")
 		(comment 1 "Grant EUSPA/GRANT/02/2024")
 		(comment 2 "Programme under the Fundamental Elements ")
 		(comment 3 "co-funded by the European Union Agency for the Space ")
 		(comment 4 "moTi project has been documented by Septentrio")
+		(comment 5 "  ")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1528,6 +1529,27 @@
 		)
 		(uuid "fac3c268-691f-4b29-8655-d836acd87547")
 	)
+	(text_box "Schematics arranged by Laetitia.K"
+		(exclude_from_sim no)
+		(at 373.38 275.59 0)
+		(size 35.56 3.9483)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "36fa51a6-2172-4568-807d-e24b313e232b")
+	)
 	(junction
 		(at 82.55 240.03)
 		(diameter 0)
@@ -2799,7 +2821,7 @@
 			)
 			(project "Clockdetect"
 				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3047,7 +3069,7 @@
 			)
 			(project "Clockdetect"
 				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
-					(reference "C?")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3187,7 +3209,7 @@
 			)
 			(project "Clockdetect"
 				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -3269,6 +3291,12 @@
 			(project "moTi"
 				(path "/a9fd92c2-3c56-4e0a-a5ac-af47c0a80946/6c55496e-da21-44b0-9ae8-5da26b28f5e7"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4016,7 +4044,7 @@
 			)
 			(project "Clockdetect"
 				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4158,7 +4186,7 @@
 			)
 			(project "Clockdetect"
 				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4409,6 +4437,12 @@
 					(unit 1)
 				)
 			)
+			(project "Clockdetect"
+				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4598,7 +4632,7 @@
 			)
 			(project "Clockdetect"
 				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4992,7 +5026,7 @@
 			)
 			(project "Clockdetect"
 				(path "/d367677d-48cb-42d1-9e76-ef4b69e236f6"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
