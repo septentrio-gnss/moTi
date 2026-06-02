@@ -1,9 +1,10 @@
 # moTi
 | Role        | Contact                                                                 |
 |-------------|-------------------------------------------------------------------------|
-| Author      | [laekaz](https://github.com/laekaz) (project from ANavS)                |
+| Author      | [laekaz](https://github.com/laekaz)                 |
 | Maintainer  | [Septentrio GNSS GitHub User](githubuser@septentrio.com)                |
 | License     | [OCP CLA](https://www.opencompute.org/documents/ocp-cla)                |
+| Project     | [Stargate](https://stargate-receiver.com/)    |
 
 <p align="center">
   <img src="/pictures/logo.png" alt="logo" width="300">
@@ -20,7 +21,7 @@ This project is co-funded by the European Union Agency for the Space Programme u
 * [What is a Time Card?](#what-is-a-time-card)
 * [What is a Mosaic-G5 T?](#what-is-a-mosaic-g5-t)
 * [Who is Septentrio?](#who-is-septentrio)
-  * [Why open-source](#why-open-source)
+  * [Why open-source?](#why-open-source)
 * [Disclaimer](#disclaimer)
 * [Deliverables](#deliverables)
   * [M.2 Form Factor](#m2-form-factor)
@@ -72,7 +73,7 @@ Septentrio's technology offers high accuracy and reliability thanks to GNSS + al
 
 For more information about Septentrio products go to [**https://www.septentrio.com/**](https://web.septentrio.com/GH-SSN-home).
 
-### Why open-source
+### Why open-source?
 This board is open source to encourage collaboration, customization, and innovation. By making the design files publicly available, developers and engineers can study, modify, and adapt the hardware to fit their specific applications, reducing development time and cost. It also promotes transparency and avoids vendor lock-in, allowing users to fully understand and control the design.
 
 ## Disclaimer
