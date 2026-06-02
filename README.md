@@ -85,13 +85,13 @@ Support website: https://www.septentrio.com/en/support
 This open-source project contains the following files for designers, producers and integrators around Septentrio's mosaic modules.
 |Files         |description   |
 |--------------|--------------|
-|moTi.kicad_pro| KiCAD project|
-|moTi.kicad_sch|KiCAD schematic|
-|mosaic-G5.kicad_sch|KiCAD mosaic-G5 schematic sheet |
-|M2_Edge connector.kicad_sch|KiCAD M.2 Key B schematic sheet|
-|Clockdetect.kicad_sch|KiCAD clock schematic sheet|
-|moTi.kicad_pcb|KiCAD PCB layout|
-|moTi.pdf|schematic PDF|
+|[moTi.kicad_pro](./KiCad_Files/KiCad/moTi/moTi.kicad_pro)| KiCAD project|
+|[moTi.kicad_sch](./KiCad_Files/KiCad/moTi/moTi.kicad_sch)|KiCAD schematic|
+|[mosaic-G5.kicad_sch](./KiCad_Files/KiCad/moTi/mosaic-G5.kicad_sch)|KiCAD mosaic-G5 schematic sheet |
+|[M2_Edge connector.kicad_sch](./KiCad_Files/KiCad/moTi/M2_Edge%20connector.kicad_sch)|KiCAD M.2 Key B schematic sheet|
+|[Clockdetect.kicad_sch](./KiCad_Files/KiCad/moTi/Clockdetect.kicad_sch)|KiCAD clock schematic sheet|
+|[moTi.kicad_pcb](./KiCad_Files/KiCad/moTi/moTi.kicad_pcb)|KiCAD PCB layout|
+|[moTi_Schematics.pdf](moTi_Schematics.pdf)|schematic PDF|
 
 #### M.2 form factor
 
