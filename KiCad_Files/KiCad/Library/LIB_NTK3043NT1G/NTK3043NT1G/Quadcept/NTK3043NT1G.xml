@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/11391143/580223/2.50/3/2/MOSFET (N-Channel)/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r52_27" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="10.629921259842" height="20.472440944882" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="18.503937007874" height="28.346456692913" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="10.629921259842" height="20.472440944882" />
+  </padstyle>
+  <padstyle name="r52_36" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="14.173228346457" height="20.472440944882" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="22.047244094488" height="28.346456692913" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="14.173228346457" height="20.472440944882" />
+  </padstyle>
+  <footprint name="MMBT2907AM3T5G" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r52_27" originx="-15.748031496063" originy="-19.291338582677" rotation="0" />
+    <pcbpin number="2" name="2" style="r52_27" originx="15.748031496063" originy="-19.291338582677" rotation="0" />
+    <pcbpin number="3" name="3" style="r52_36" originx="0" originy="19.291338582677" rotation="0" />
+    <line layer="TOP_ASSEMBLY" originx="-23.622047244094" originy="15.748031496063" endx="23.622047244094" endy="15.748031496063" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="23.622047244094" originy="15.748031496063" endx="23.622047244094" endy="-15.748031496063" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="23.622047244094" originy="-15.748031496063" endx="-23.622047244094" endy="-15.748031496063" width="7.8740157480314" />
+    <line layer="TOP_ASSEMBLY" originx="-23.622047244094" originy="-15.748031496063" endx="-23.622047244094" endy="15.748031496063" width="7.8740157480314" />
+    <line layer="TOP_PLACE_BOUND" originx="-43.307086614173" originy="49.212598425196" endx="43.307086614173" endy="49.212598425196" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="43.307086614173" originy="49.212598425196" endx="43.307086614173" endy="-57.086614173228" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="43.307086614173" originy="-57.086614173228" endx="-43.307086614173" endy="-57.086614173228" width="3.9370078740157" />
+    <line layer="TOP_PLACE_BOUND" originx="-43.307086614173" originy="-57.086614173228" endx="-43.307086614173" endy="49.212598425196" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-23.622047244094" originy="-3.9370078740157" endx="-23.622047244094" endy="15.748031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-23.622047244094" originy="15.748031496063" endx="-15.748031496063" endy="15.748031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="15.748031496063" originy="15.748031496063" endx="23.622047244094" endy="15.748031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="23.622047244094" originy="15.748031496063" endx="23.622047244094" endy="0" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="23.622047244094" originy="0" endx="23.622047244094" endy="-3.9370078740157" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-3.9370078740157" originy="-15.748031496063" endx="3.9370078740157" endy="-15.748031496063" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-17.716535433071" originy="-35.433070866141" endx="-17.716535433071" endy="-35.433070866141" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-15.748031496063" originy="-35.433070866141" startangle="180.0" sweepangle="-180.0" radius="1.9685039370078" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-13.779527559055" originy="-35.433070866141" endx="-13.779527559055" endy="-35.433070866141" width="3.9370078740157" />
+    <arc layer="TOP_SILKSCREEN" originx="-15.748031496063" originy="-35.433070866141" startangle=".0" sweepangle="-180.0" radius="1.9685039370078" width="3.9370078740157" />
+  </footprint>
+  <symbol name="NTK3043NT1G" originx="0" originy="0">
+    <line originx="300" originy="100" endx="300" endy="-100" width="0" />
+    <line originx="300" originy="200" endx="300" endy="300" width="0" />
+    <line originx="100" originy="0" endx="200" endy="0" width="0" />
+    <line originx="200" originy="200" endx="200" endy="0" width="0" />
+    <line originx="300" originy="100" endx="230" endy="100" width="0" />
+    <line originx="300" originy="200" endx="230" endy="200" width="0" />
+    <line originx="230" originy="0" endx="300" endy="0" width="0" />
+    <line originx="230" originy="220" endx="230" endy="180" width="0" />
+    <line originx="230" originy="-20" endx="230" endy="20" width="0" />
+    <line originx="230" originy="80" endx="230" endy="120" width="0" />
+    <arc originx="250" originy="100" startangle="180" sweepangle="180" radius="150" width="0" />
+    <arc originx="250" originy="100" startangle="180" sweepangle="-180" radius="150" width="0" />
+    <sympin number="1" originx="100" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="0" originy="-20" style="Default" rotation="0" justify="upperleft" flipped="False" hidden="True" data="G" />
+      <text name="pindes" originx="80" originy="10" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="3" originx="300" originy="300" rotation="90" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="320" originy="400" style="Default" rotation="90" justify="upperleft" flipped="False" hidden="True" data="D" />
+      <text name="pindes" originx="280" originy="400" style="Default" rotation="90" justify="upperright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="2" originx="300" originy="-100" rotation="270" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="320" originy="-200" style="Default" rotation="90" justify="lowerleft" flipped="False" hidden="True" data="S" />
+      <text name="pindes" originx="280" originy="-200" style="Default" rotation="90" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <polygon type="polygon">
+      <point x="230" y="100" />
+      <point x="270" y="120" />
+      <point x="270" y="80" />
+    </polygon>
+  </symbol>
+  <component name="NTK3043NT1G" designatorprefix="Q" height="39.370078740157" footprint="MMBT2907AM3T5G">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="G" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="S" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="D" />
+    <attached_symbol gate="1" name="NTK3043NT1G" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.onsemi.com/pub/Collateral/NTK3043N-D.PDF" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Enables High Density PCB Manufacturing; 44% Smaller Footprint than SC-89 and 38% Thinner than SC-89; Low Voltage Drive Makes this Device Ideal for Portable Equipment; Low Threshold Levels, VGS(TH) &lt; 1.3 V; Low Profile (&lt; 0.5 mm) Allows It to Fit Easily in Extremely Thin Environments such as Protable Electronics.; Operated at Standard Logic Level Gate Drive, Facilitating Future Migration to Lower Levels Using the Same Basic Topolgy." />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="863-NTK3043NT1G" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/onsemi/NTK3043NT1G?qs=ZXBb0xZ9WeAmhKltwz1s8A%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="onsemi" />
+    <text name="Manufacturer_Part_Number" originx="450" originy="50" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="NTK3043NT1G" />
+  </component>
+</quadcept_library>
