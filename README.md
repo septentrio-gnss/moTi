@@ -198,7 +198,7 @@ These are normal steps to get the Time Card recognized by Linux.
 
 ## Design documentation
 #### Ordering mosaic
-For orders of the mosaic-G5 T, please contact [Septentrio](https://www.septentrio.com/en/support)
+For orders of the mosaic-G5 T, please contact [Septentrio](https://www.septentrio.com/en/products/gnss-receivers/gnss-receiver-modules/mosaic-g5-t)
 
 ### Block diagram
 <img src="/pictures/block%20diagram.png" width="80%">
