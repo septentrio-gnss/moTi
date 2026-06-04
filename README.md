@@ -198,8 +198,9 @@ These are normal steps to get the Time Card recognized by Linux.
 
 ## Design documentation
 #### Ordering mosaic
-If you need to order a mosaic-G5 T please contact [Septentrio](https://www.septentrio.com/en/support)
+For orders of the mosaic-G5 T, please contact [Septentrio](https://www.septentrio.com/en/support)
 
+### Block diagram
 <img src="/pictures/block%20diagram.png" width="80%">
 
 The above block diagram is showing the overview communication between the antenna, receiver and M.2 edge connector. 
