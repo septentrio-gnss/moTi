@@ -46,11 +46,12 @@ This project is co-funded by the European Union Agency for the Space Programme u
 ## Introduction 
 ## What is a moTi?
 
-<img src="/pictures/moTi board.png" width="80%">
+<img src="/pictures/moTi_add.png" width="80%">
 
 moTi is a timing module that provides accurate and reliable synchronisation signals for time-sensitive systems. It is based on a standardised M.2 form factor that can be easily integrated into compatible carrier boards such as the Open Compute Project (OCP) [Time Card](#what-is-a-Time-Card?).
 This board receives precise timing information from Septentrio’s mosaic-G5 T GNSS (Global Navigation Satellite System) module. It then generates synchronisation outputs such as Pulse Per Second (PPS) and Time of Day (ToD) data. These signals are then used to synchronise services, in network interface cards (NICs), and other hardware in data centres and communication systems.
 
+<img src="/pictures/moTi board.png" width="80%">
 
 ## What is a Time Card?
 ![card](/pictures/timecard.png)
